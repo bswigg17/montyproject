@@ -1,0 +1,3 @@
+Id,Prediction,Date,File,StartTime,ElapsedTime,BusyTime,Commands,editOrInsertPercentage,debugPercentage,navigationPercentage,focusPercentage,removePercentage,editPercentage,COMMAND_RATE,NAVIGATION_RATE,DEBUG_RATE,FOCUS_RATE,EDIT_RATE,REMOVE_RATE,INSERT_RATE,webLinkTimes,Web Page Visits
+1,,Thu Jun 10 15:46:44 EDT 2021,Grader.java,1623354404772,60538,0,(D)2(F)1,0.0,66.66666666666666,0.0,33.33333333333333,0.0,0.0,0.05,0.0,0.03333333333333333,0.016666666666666666,0.0,0.0,0.0,0.0,[]
+,/modelData/A0UserStudy2010.arff,Thu Jun 10 15:46:44 EDT 2021,Grader.java, 1623354404772

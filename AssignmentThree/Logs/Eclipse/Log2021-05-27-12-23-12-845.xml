@@ -1,0 +1,973 @@
+<Events startTimestamp="1622132592845" logVersion="1.0.0.202105202021">
+  <Command __id="3" _type="MoveCaretCommand" caretOffset="858" date="Thu May 27 12:23:13 EDT 2021" docOffset="1004" starttimestamp="1622132592845" timestamp="594" />
+  <Command __id="5" _type="PauseCommand" date="Thu May 27 12:23:21 EDT 2021" range="5s-10s" starttimestamp="1622132592845" timestamp="8584">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[7979]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="6" _type="MoveCaretCommand" caretOffset="380" date="Thu May 27 12:23:21 EDT 2021" docOffset="704" starttimestamp="1622132592845" timestamp="9130" />
+  <Command __id="8" _type="PauseCommand" date="Thu May 27 12:23:23 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="10550">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1420]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="7" _type="SelectTextCommand" caretOffset="47" date="Thu May 27 12:23:23 EDT 2021" end="79" start="47" starttimestamp="1622132592845" timestamp="10550" />
+  <Command __id="10" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:24 EDT 2021" starttimestamp="1622132592845" timestamp="11218" />
+  <Command __id="12" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:24 EDT 2021" starttimestamp="1622132592845" timestamp="11329" />
+  <Command __id="13" _type="MoveCaretCommand" caretOffset="154" date="Thu May 27 12:23:25 EDT 2021" docOffset="478" starttimestamp="1622132592845" timestamp="12230" />
+  <Command __id="14" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu May 27 12:23:25 EDT 2021" starttimestamp="1622132592845" timestamp="12503" />
+  <Command __id="15" _type="EclipseCommand" commandID="" date="Thu May 27 12:23:25 EDT 2021" starttimestamp="1622132592845" timestamp="12590" />
+  <Command __id="16" _type="EclipseCommand" commandID="" date="Thu May 27 12:23:25 EDT 2021" starttimestamp="1622132592845" timestamp="12686" />
+  <Command __id="18" _type="PauseCommand" date="Thu May 27 12:23:26 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="13817">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1131]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="19" _type="MoveCaretCommand" caretOffset="181" date="Thu May 27 12:23:27 EDT 2021" docOffset="211" starttimestamp="1622132592845" timestamp="14492" />
+  <Command __id="21" _type="PauseCommand" date="Thu May 27 12:23:28 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="15500">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1007]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="20" _type="SelectTextCommand" caretOffset="48" date="Thu May 27 12:23:28 EDT 2021" end="107" start="48" starttimestamp="1622132592845" timestamp="15499" />
+  <Command __id="22" _type="MoveCaretCommand" caretOffset="76" date="Thu May 27 12:23:28 EDT 2021" docOffset="106" starttimestamp="1622132592845" timestamp="16008" />
+  <Command __id="24" _type="PauseCommand" date="Thu May 27 12:23:30 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="17276">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1268]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="23" _type="SelectTextCommand" caretOffset="44" date="Thu May 27 12:23:30 EDT 2021" end="76" start="44" starttimestamp="1622132592845" timestamp="17276" />
+  <Command __id="26" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:30 EDT 2021" starttimestamp="1622132592845" timestamp="17562" />
+  <Command __id="28" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:30 EDT 2021" starttimestamp="1622132592845" timestamp="17663" />
+  <Command __id="29" _type="MoveCaretCommand" caretOffset="148" date="Thu May 27 12:23:31 EDT 2021" docOffset="178" starttimestamp="1622132592845" timestamp="18434" />
+  <Command __id="30" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu May 27 12:23:31 EDT 2021" starttimestamp="1622132592845" timestamp="18641" />
+  <Command __id="31" _type="EclipseCommand" commandID="" date="Thu May 27 12:23:31 EDT 2021" starttimestamp="1622132592845" timestamp="18725" />
+  <Command __id="32" _type="EclipseCommand" commandID="" date="Thu May 27 12:23:31 EDT 2021" starttimestamp="1622132592845" timestamp="18789" />
+  <Command __id="34" _type="PauseCommand" date="Thu May 27 12:23:40 EDT 2021" range="5s-10s" starttimestamp="1622132592845" timestamp="27334">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[8545]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="33" _type="ShellCommand" date="Thu May 27 12:23:40 EDT 2021" starttimestamp="1622132592845" timestamp="27334" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="35" _type="ShellCommand" date="Thu May 27 12:23:40 EDT 2021" starttimestamp="1622132592845" timestamp="27452" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="37" _type="PauseCommand" date="Thu May 27 12:23:43 EDT 2021" range="2s-5s" starttimestamp="1622132592845" timestamp="30394">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2942]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="36" _type="MoveCaretCommand" caretOffset="42" date="Thu May 27 12:23:43 EDT 2021" docOffset="42" starttimestamp="1622132592845" timestamp="30394" />
+  <Command __id="39" _type="PauseCommand" date="Thu May 27 12:23:44 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="31397">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1003]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="38" _type="SelectTextCommand" caretOffset="15" date="Thu May 27 12:23:44 EDT 2021" end="42" start="15" starttimestamp="1622132592845" timestamp="31397" />
+  <Command __id="41" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:44 EDT 2021" starttimestamp="1622132592845" timestamp="31697" />
+  <Command __id="43" _type="PauseCommand" date="Thu May 27 12:23:46 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="33532">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1835]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="42" _type="SelectTextCommand" caretOffset="16" date="Thu May 27 12:23:46 EDT 2021" end="45" start="16" starttimestamp="1622132592845" timestamp="33532" />
+  <Command __id="45" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:46 EDT 2021" starttimestamp="1622132592845" timestamp="33828" />
+  <Command __id="47" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:46 EDT 2021" starttimestamp="1622132592845" timestamp="33954" />
+  <Command __id="49" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu May 27 12:23:47 EDT 2021" starttimestamp="1622132592845" timestamp="34424" />
+  <Command __id="50" _type="MoveCaretCommand" caretOffset="120" date="Thu May 27 12:23:47 EDT 2021" docOffset="120" starttimestamp="1622132592845" timestamp="35151" />
+  <Command __id="51" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu May 27 12:23:48 EDT 2021" starttimestamp="1622132592845" timestamp="35344" />
+  <Command __id="52" _type="EclipseCommand" commandID="" date="Thu May 27 12:23:48 EDT 2021" starttimestamp="1622132592845" timestamp="35433" />
+  <Command __id="53" _type="EclipseCommand" commandID="" date="Thu May 27 12:23:48 EDT 2021" starttimestamp="1622132592845" timestamp="35450" />
+  <Command __id="58" _type="PauseCommand" date="Thu May 27 12:23:56 EDT 2021" range="2s-5s" starttimestamp="1622132592845" timestamp="43685">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3586]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="57" _type="RunCommand" date="Thu May 27 12:23:56 EDT 2021" kind="HitBreakPoint" projectName="AssignmentOne" starttimestamp="1622132592845" timestamp="43685" type="Run" />
+  <Command __id="59" _type="RunCommand" date="Thu May 27 12:23:56 EDT 2021" kind="HitBreakPoint" projectName="AssignmentOne" starttimestamp="1622132592845" timestamp="43686" type="Run" />
+  <Command __id="61" _type="PauseCommand" date="Thu May 27 12:23:57 EDT 2021" range="1s-2s" starttimestamp="1622132592845" timestamp="45060">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1373]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="60" _type="ShellCommand" date="Thu May 27 12:23:57 EDT 2021" starttimestamp="1622132592845" timestamp="45059" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="63" _type="PauseCommand" date="Thu May 27 12:24:06 EDT 2021" range="5s-10s" starttimestamp="1622132592845" timestamp="53399">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[8340]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="62" _type="ConsoleOutput" date="Thu May 27 12:24:06 EDT 2021" overflow="false" starttimestamp="1622132592845" timestamp="53399" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu May 27 12:24:06 EDT 2021
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="65" _type="PauseCommand" date="Thu May 27 12:24:08 EDT 2021" range="2s-5s" starttimestamp="1622132592845" timestamp="55664">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2265]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="64" _type="ExceptionCommand" date="Thu May 27 12:24:08 EDT 2021" starttimestamp="1622132592845" timestamp="55664" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitInterface(ComprehensiveVisitCheck.java:1230)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3811)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1744)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="66" _type="ExceptionCommand" date="Thu May 27 12:24:08 EDT 2021" starttimestamp="1622132592845" timestamp="55993" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1744)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="67" _type="ExceptionCommand" date="Thu May 27 12:24:08 EDT 2021" starttimestamp="1622132592845" timestamp="56139" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1744)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="68" _type="ExceptionCommand" date="Thu May 27 12:24:09 EDT 2021" starttimestamp="1622132592845" timestamp="56291" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitEditablePropertyNames(ComprehensiveVisitCheck.java:816)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:938)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1744)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="69" _type="ConsoleOutput" date="Thu May 27 12:24:09 EDT 2021" overflow="false" starttimestamp="1622132592845" timestamp="56506" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:37
+Running second pass checks Thu May 27 12:24:09 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu May 27 12:24:09 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:37¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Thu May 27 12:24:09 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Thu May 27 12:24:0"), Diff(DELETE,"6"), Diff(INSERT,"9"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="70" _type="ConsoleOutput" date="Thu May 27 12:24:09 EDT 2021" overflow="false" starttimestamp="1622132592845" timestamp="56576" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu May 27 12:24:09 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:37¶Running second pass checks Thu May 27 12:24:09 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu May 27 12:24:09 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="71" _type="ExceptionCommand" date="Thu May 27 12:24:10 EDT 2021" starttimestamp="1622132592845" timestamp="57469" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitInterface(ComprehensiveVisitCheck.java:1230)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3811)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="72" _type="ExceptionCommand" date="Thu May 27 12:24:10 EDT 2021" starttimestamp="1622132592845" timestamp="57629" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.DuplicateShortTypeNameCheck.visitType(DuplicateShortTypeNameCheck.java:43)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at unc.tools.checkstyle.ANonCachingTreeWalker.processFiltered(ANonCachingTreeWalker.java:11)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="73" _type="ConsoleOutput" date="Thu May 27 12:24:10 EDT 2021" overflow="false" starttimestamp="1622132592845" timestamp="57821" type="ConsoleOutput">
+    <outputString><![CDATA[	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) inter- and intra class method calls:Thu May 27 12:24:09 EDT 2021"), Diff(INSERT,"	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)¶	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)¶	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)¶	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)¶	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)¶	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)¶	at java.desktop/java.awt.Component.processEvent(Component.java:6400)¶	at java.desktop/java.awt.Container.processEvent(Container.java:2263)¶	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)¶	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)¶	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)¶	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)¶	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)¶	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)¶	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)¶	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)¶	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)¶	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="74" _type="ExceptionCommand" date="Thu May 27 12:24:10 EDT 2021" starttimestamp="1622132592845" timestamp="58007" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="75" _type="ConsoleOutput" date="Thu May 27 12:24:10 EDT 2021" overflow="false" starttimestamp="1622132592845" timestamp="58058" type="ConsoleOutput">
+    <outputString><![CDATA[	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶"), Diff(EQUAL,"	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)¶	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)¶	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)¶	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)¶	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)¶	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)¶	at java.desktop/java.awt.Component.processEvent(Component.java:6400)¶	at java.desktop/java.awt.Container.processEvent(Container.java:2263)¶	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)¶	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)¶	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)¶	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)¶	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)¶	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)¶	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)¶	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)¶	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)¶	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)¶"), Diff(INSERT,"	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)¶	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)¶")]]]></diff>
+  </Command>
+  <Command __id="76" _type="ExceptionCommand" date="Thu May 27 12:24:11 EDT 2021" starttimestamp="1622132592845" timestamp="58260" type="Exception">
+    <exceptionString><![CDATA[java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.STBuilderCheck.visitType(STBuilderCheck.java:896)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.STBuilderCheck.doVisitToken(STBuilderCheck.java:1735)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="77" _type="ExceptionCommand" date="Thu May 27 12:24:11 EDT 2021" starttimestamp="1622132592845" timestamp="58440" type="Exception">
+    <exceptionString><![CDATA[ava.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at unc.tools.checkstyle.ANonCachingTreeWalker.processFiltered(ANonCachingTreeWalker.java:11)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="78" _type="ExceptionCommand" date="Thu May 27 12:24:11 EDT 2021" starttimestamp="1622132592845" timestamp="58508" type="Exception">
+    <exceptionString><![CDATA[tDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at unc.tools.checkstyle.ANonCachingTreeWalker.processFiltered(ANonCachingTreeWalker.java:11)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="79" _type="ConsoleOutput" date="Thu May 27 12:24:11 EDT 2021" overflow="false" starttimestamp="1622132592845" timestamp="58618" type="ConsoleOutput">
+    <outputString><![CDATA[
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶"), Diff(EQUAL,"	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)¶	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)¶	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)¶	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)¶	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)¶	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)¶	at java.desktop/java.awt.Component.processEvent(Component.java:6400)¶	at java.desktop/java.awt.Container.processEvent(Container.java:2263)¶	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)¶	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)¶	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)¶	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)¶	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4556)¶	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)¶	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)¶	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)¶"), Diff(DELETE,"	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)¶	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)¶	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)¶	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)¶")]]]></diff>
+  </Command>
+  <Command __id="80" _type="ExceptionCommand" date="Thu May 27 12:24:11 EDT 2021" starttimestamp="1622132592845" timestamp="58852" type="Exception">
+    <exceptionString><![CDATA[	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitEditablePropertyNames(ComprehensiveVisitCheck.java:816)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:938)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at unc.tools.checkstyle.ANonCachingTreeWalker.processFiltered(ANonCachingTreeWalker.java:11)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="81" _type="ExceptionCommand" date="Thu May 27 12:24:11 EDT 2021" starttimestamp="1622132592845" timestamp="58937" type="Exception">
+    <exceptionString><![CDATA[	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+java.lang.NullPointerException
+	at unc.checks.TagBasedCheck.getArrayLiterals(TagBasedCheck.java:1235)
+	at unc.checks.ComprehensiveVisitCheck.maybeVisitPropertyNames(ComprehensiveVisitCheck.java:804)
+	at unc.checks.ComprehensiveVisitCheck.visitType(ComprehensiveVisitCheck.java:937)
+	at unc.checks.ComprehensiveVisitCheck.visitClass(ComprehensiveVisitCheck.java:1203)
+	at unc.checks.ComprehensiveVisitCheck.doVisitToken(ComprehensiveVisitCheck.java:3796)
+	at unc.checks.UNCCheck.visitToken(UNCCheck.java:585)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyVisit(AnExtendibleTreeWalker.java:346)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processIter(AnExtendibleTreeWalker.java:457)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:284)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at unc.tools.checkstyle.ANonCachingTreeWalker.processFiltered(ANonCachingTreeWalker.java:11)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:926)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:256)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleClassInstantiatedTestCase.test(CheckstyleClassInstantiatedTestCase.java:48)
+	at gradingTools.comp301ss21.assignment1.testcases.main.A1MainInstantiatesBridgeScene.test(A1MainInstantiatesBridgeScene.java:27)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:125)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="86" _type="PauseCommand" date="Thu May 27 12:24:20 EDT 2021" range="5s-10s" starttimestamp="1622132592845" timestamp="67939">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[7633]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="85" _type="RunCommand" date="Thu May 27 12:24:20 EDT 2021" kind="HitBreakPoint" projectName="AssignmentOne" starttimestamp="1622132592845" timestamp="67939" type="Run" />
+  <Command __id="87" _type="RunCommand" date="Thu May 27 12:24:20 EDT 2021" kind="HitBreakPoint" projectName="AssignmentOne" starttimestamp="1622132592845" timestamp="67940" type="Run" />
+  <Command __id="88" _type="ShellCommand" date="Thu May 27 12:24:20 EDT 2021" starttimestamp="1622132592845" timestamp="67969" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="90" _type="PauseCommand" date="Thu May 27 12:25:04 EDT 2021" range="30s-1m" starttimestamp="1622132592845" timestamp="112136">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[44167]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="89" _type="ShellCommand" date="Thu May 27 12:25:04 EDT 2021" starttimestamp="1622132592845" timestamp="112136" type="ECLIPSE_LOST_FOCUS" />
+</Events>

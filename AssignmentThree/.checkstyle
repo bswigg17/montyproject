@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
+  <local-check-config name="301_A1" location="/Users/sethwiggins/Downloads/unc_checks_301_A1.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A1" location="/Users/sethwiggins/Downloads/unc_checks_301_A1.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="true"/>
+  </local-check-config>
+  <local-check-config name="301.A2" location="/Users/sethwiggins/Downloads/unc_checks_301_A2.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="A3" location="/Users/sethwiggins/Downloads/unc_checks_301_A3.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A3" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-2.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A3-3" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-3.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="A3_4" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-4.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A3-5" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-5.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A3_NEW" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-6.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A3_new" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-7.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <local-check-config name="301.A3_Final" location="/Users/sethwiggins/Downloads/unc_checks_301_A3-8.xml" type="external" description="">
+    <additional-data name="protect-config-file" value="false"/>
+  </local-check-config>
+  <fileset name="all" enabled="true" check-config-name="301.A3_Final" local="true">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+</fileset-config>

@@ -1,0 +1,55 @@
+<Events startTimestamp="1622127085486" logVersion="1.0.0.202105202021">
+  <Command __id="3" _type="MoveCaretCommand" caretOffset="855" date="Thu May 27 10:51:26 EDT 2021" docOffset="1001" starttimestamp="1622127085486" timestamp="623" />
+  <Command __id="5" _type="PauseCommand" date="Thu May 27 10:51:32 EDT 2021" range="5s-10s" starttimestamp="1622127085486" timestamp="6888">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6258]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="4" _type="ShellCommand" date="Thu May 27 10:51:32 EDT 2021" starttimestamp="1622127085486" timestamp="6881" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="7" _type="PauseCommand" date="Thu May 27 10:51:42 EDT 2021" range="5s-10s" starttimestamp="1622127085486" timestamp="16650">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[9769]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="6" _type="ShellCommand" date="Thu May 27 10:51:42 EDT 2021" starttimestamp="1622127085486" timestamp="16650" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8" _type="EclipseCommand" commandID="org.eclipse.ui.file.export" date="Thu May 27 10:51:42 EDT 2021" starttimestamp="1622127085486" timestamp="16686" />
+  <Command __id="9" _type="EclipseCommand" commandID="org.eclipse.ui.file.export" date="Thu May 27 10:51:42 EDT 2021" starttimestamp="1622127085486" timestamp="16686" />
+  <Command __id="10" _type="ShellCommand" date="Thu May 27 10:51:43 EDT 2021" starttimestamp="1622127085486" timestamp="17669" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="12" _type="PauseCommand" date="Thu May 27 10:53:35 EDT 2021" range="1m-2m" starttimestamp="1622127085486" timestamp="130424">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[112755]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="11" _type="ShellCommand" date="Thu May 27 10:53:35 EDT 2021" starttimestamp="1622127085486" timestamp="130424" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="13" _type="MoveCaretCommand" caretOffset="858" date="Thu May 27 10:53:36 EDT 2021" docOffset="1004" starttimestamp="1622127085486" timestamp="130912" />
+  <Command __id="15" _type="PauseCommand" date="Thu May 27 10:53:37 EDT 2021" range="1s-2s" starttimestamp="1622127085486" timestamp="132094">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1181]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="14" _type="ShellCommand" date="Thu May 27 10:53:37 EDT 2021" starttimestamp="1622127085486" timestamp="132093" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="17" _type="PauseCommand" date="Thu May 27 11:29:51 EDT 2021" range="30m-1h" starttimestamp="1622127085486" timestamp="2305519">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2173425]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="16" _type="ShellCommand" date="Thu May 27 11:29:51 EDT 2021" starttimestamp="1622127085486" timestamp="2305518" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="19" _type="PauseCommand" date="Thu May 27 11:29:53 EDT 2021" range="2s-5s" starttimestamp="1622127085486" timestamp="2307879">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2361]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="18" _type="ShellCommand" date="Thu May 27 11:29:53 EDT 2021" starttimestamp="1622127085486" timestamp="2307879" type="ECLIPSE_LOST_FOCUS" />
+</Events>

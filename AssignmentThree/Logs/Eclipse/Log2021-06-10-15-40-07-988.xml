@@ -1,0 +1,517 @@
+<Events startTimestamp="1623354007988" logVersion="1.0.0.202105202021">
+  <Command __id="2" _type="EclipseCommand" commandID="" date="Thu Jun 10 15:40:08 EDT 2021" starttimestamp="1623354007988" timestamp="162" />
+  <Command __id="5" _type="PauseCommand" date="Thu Jun 10 15:40:14 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="6816">
+    <prevType><![CDATA[Select]]></prevType>
+    <prev><![CDATA[SelectTextCommand]]></prev>
+    <pause><![CDATA[6222]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="4" _type="EclipseCommand" commandID="" date="Thu Jun 10 15:40:14 EDT 2021" starttimestamp="1623354007988" timestamp="6807" />
+  <Command __id="6" _type="EclipseCommand" commandID="" date="Thu Jun 10 15:40:14 EDT 2021" starttimestamp="1623354007988" timestamp="6823" />
+  <Command __id="11" _type="PauseCommand" date="Thu Jun 10 15:40:38 EDT 2021" range="1s-2s" starttimestamp="1623354007988" timestamp="30051">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1270]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="10" _type="RunCommand" date="Thu Jun 10 15:40:38 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623354007988" timestamp="30051" type="Run" />
+  <Command __id="12" _type="RunCommand" date="Thu Jun 10 15:40:38 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623354007988" timestamp="30052" type="Run" />
+  <Command __id="13" _type="ConsoleOutput" date="Thu Jun 10 15:40:38 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="30790" type="ConsoleOutput">
+    <outputString><![CDATA[
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="14" _type="ShellCommand" date="Thu Jun 10 15:40:39 EDT 2021" starttimestamp="1623354007988" timestamp="31075" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="16" _type="PauseCommand" date="Thu Jun 10 15:40:43 EDT 2021" range="2s-5s" starttimestamp="1623354007988" timestamp="35054">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3979]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="15" _type="ConsoleOutput" date="Thu Jun 10 15:40:43 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="35054" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu Jun 10 15:40:42 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Building symbol table and running first pass checks:Thu Jun 10 15:40:42 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="18" _type="PauseCommand" date="Thu Jun 10 15:40:45 EDT 2021" range="2s-5s" starttimestamp="1623354007988" timestamp="37567">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2513]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="17" _type="ExceptionCommand" date="Thu Jun 10 15:40:45 EDT 2021" starttimestamp="1623354007988" timestamp="37567" type="Exception">
+    <exceptionString><![CDATA[java.lang.NumberFormatException: For input string: "-1rued "
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at unc.tools.checkstyle.ACheckStyleLogFileManager.readLogFile(ACheckStyleLogFileManager.java:428)
+	at unc.tools.checkstyle.ACheckStyleLogFileManager.maybeNewProjectDirectory(ACheckStyleLogFileManager.java:533)
+	at unc.checks.UNCCheck.beginTree(UNCCheck.java:445)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyBegin(AnExtendibleTreeWalker.java:309)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:283)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1744)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:980)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:295)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase.test(CheckstyleMethodDefinedTestCase.java:70)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:169)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AJUnitTestContext.getAndPossiblyRunJUnitPassFailTestCase(AJUnitTestContext.java:52)
+	at grader.basics.junit.JUnitTestsEnvironment.getAndPossiblyRunGradableJUnitTest(JUnitTestsEnvironment.java:62)
+	at grader.basics.testcase.PassFailJUnitTestCase.possiblyRunAndCheckPrecedingTests(PassFailJUnitTestCase.java:143)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="19" _type="ExceptionCommand" date="Thu Jun 10 15:40:45 EDT 2021" starttimestamp="1623354007988" timestamp="37808" type="Exception">
+    <exceptionString><![CDATA[Description:Check:unc.checks.STBuilderCheck@da09250 ast:package[1x0] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/ABetterBridgeScene.java
+java.lang.NullPointerException
+	at unc.symbolTable.AnSTType.<init>(AnSTType.java:178)
+	at unc.checks.STBuilderCheck.createNewEntry(STBuilderCheck.java:1453)
+	at unc.checks.STBuilderCheck.processMethodAndClassData(STBuilderCheck.java:1502)
+	at unc.checks.STBuilderCheck.doFinishTree(STBuilderCheck.java:827)
+	at unc.checks.UNCCheck.finishTree(UNCCheck.java:509)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyEnd(AnExtendibleTreeWalker.java:330)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:285)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1744)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:980)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:295)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase.test(CheckstyleMethodDefinedTestCase.java:70)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:169)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AJUnitTestContext.getAndPossiblyRunJUnitPassFailTestCase(AJUnitTestContext.java:52)
+	at grader.basics.junit.JUnitTestsEnvironment.getAndPossiblyRunGradableJUnitTest(JUnitTestsEnvironment.java:62)
+	at grader.basics.testcase.PassFailJUnitTestCase.possiblyRunAndCheckPrecedingTests(PassFailJUnitTestCase.java:143)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="20" _type="ConsoleOutput" date="Thu Jun 10 15:40:46 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="38713" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:99
+Running second pass checks Thu Jun 10 15:40:46 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu Jun 10 15:40:46 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:99¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Thu Jun 10 15:40:46 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Thu Jun 10 15:40:4"), Diff(DELETE,"2"), Diff(INSERT,"6"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="21" _type="ConsoleOutput" date="Thu Jun 10 15:40:46 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="38848" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu Jun 10 15:40:46 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:99¶Running second pass checks Thu Jun 10 15:40:46 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu Jun 10 15:40:46 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="22" _type="ExceptionCommand" date="Thu Jun 10 15:40:47 EDT 2021" starttimestamp="1623354007988" timestamp="39617" type="Exception">
+    <exceptionString><![CDATA[java.lang.NumberFormatException: For input string: "-1rued "
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Integer.parseInt(Integer.java:652)
+	at java.base/java.lang.Integer.parseInt(Integer.java:770)
+	at unc.tools.checkstyle.ACheckStyleLogFileManager.readLogFile(ACheckStyleLogFileManager.java:428)
+	at unc.tools.checkstyle.ACheckStyleLogFileManager.maybeNewProjectDirectory(ACheckStyleLogFileManager.java:533)
+	at unc.checks.UNCCheck.beginTree(UNCCheck.java:445)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyBegin(AnExtendibleTreeWalker.java:309)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:283)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:980)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:295)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase.test(CheckstyleMethodDefinedTestCase.java:70)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:169)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AJUnitTestContext.getAndPossiblyRunJUnitPassFailTestCase(AJUnitTestContext.java:52)
+	at grader.basics.junit.JUnitTestsEnvironment.getAndPossiblyRunGradableJUnitTest(JUnitTestsEnvironment.java:62)
+	at grader.basics.testcase.PassFailJUnitTestCase.possiblyRunAndCheckPrecedingTests(PassFailJUnitTestCase.java:143)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="23" _type="ExceptionCommand" date="Thu Jun 10 15:40:47 EDT 2021" starttimestamp="1623354007988" timestamp="39951" type="Exception">
+    <exceptionString><![CDATA[Description:Check:unc.checks.PublicMethodsOverrideCheck@77d95e5a ast:package[1x0] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/ABetterBridgeScene.java
+java.lang.IllegalArgumentException: the ast is null
+	at com.puppycrawl.tools.checkstyle.utils.AnnotationUtil.getAnnotation(AnnotationUtil.java:183)
+	at com.puppycrawl.tools.checkstyle.utils.AnnotationUtil.containsAnnotation(AnnotationUtil.java:71)
+	at unc.symbolTable.AnSTNameable.hasAnnotation(AnSTNameable.java:213)
+	at unc.checks.PublicMethodsOverrideCheck.typeCheck(PublicMethodsOverrideCheck.java:66)
+	at unc.checks.PublicMethodsOverrideCheck.callTypeCheck(PublicMethodsOverrideCheck.java:40)
+	at unc.checks.STTypeVisitedComprehensively.doPendingCheck(STTypeVisitedComprehensively.java:62)
+	at unc.checks.ComprehensiveVisitCheck.maybeAddToPendingTypeChecks(ComprehensiveVisitCheck.java:2890)
+	at unc.checks.STTypeVisitedComprehensively.doFinishTree(STTypeVisitedComprehensively.java:91)
+	at unc.checks.UNCCheck.finishTree(UNCCheck.java:509)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.notifyEnd(AnExtendibleTreeWalker.java:330)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.walk(AnExtendibleTreeWalker.java:285)
+	at unc.tools.checkstyle.AnExtendibleTreeWalker.processFiltered(AnExtendibleTreeWalker.java:157)
+	at unc.tools.checkstyle.ANonCachingTreeWalker.processFiltered(ANonCachingTreeWalker.java:11)
+	at com.puppycrawl.tools.checkstyle.api.AbstractFileSetCheck.process(AbstractFileSetCheck.java:87)
+	at com.puppycrawl.tools.checkstyle.Checker.processFile(Checker.java:337)
+	at com.puppycrawl.tools.checkstyle.Checker.processFiles(Checker.java:298)
+	at com.puppycrawl.tools.checkstyle.Checker.process(Checker.java:221)
+	at unc.tools.checkstyle.AnExtendibleChecker.process(AnExtendibleChecker.java:19)
+	at com.puppycrawl.tools.checkstyle.Main.runCheckstyle(Main.java:408)
+	at com.puppycrawl.tools.checkstyle.Main.runCli(Main.java:331)
+	at com.puppycrawl.tools.checkstyle.Main.execute(Main.java:190)
+	at com.puppycrawl.tools.checkstyle.Main.main(Main.java:125)
+	at unc.tools.checkstyle.NonExitingMain.main(NonExitingMain.java:19)
+	at unc.tools.checkstyle.PostProcessingMain.main(PostProcessingMain.java:1757)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:93)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:29)
+	at grader.basics.checkstyle.CheckStyleInvoker.runCheckstyle(CheckStyleInvoker.java:100)
+	at grader.basics.project.BasicProject.getCheckstyleText(BasicProject.java:980)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckStyleTestCase.test(CheckStyleTestCase.java:295)
+	at gradingTools.basics.sharedTestCase.checkstyle.CheckstyleMethodDefinedTestCase.test(CheckstyleMethodDefinedTestCase.java:70)
+	at grader.basics.testcase.PassFailJUnitTestCase.passfailDefaultTest(PassFailJUnitTestCase.java:169)
+	at grader.basics.testcase.PassFailJUnitTestCase.defaultTest(PassFailJUnitTestCase.java:102)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="25" _type="PauseCommand" date="Thu Jun 10 15:40:49 EDT 2021" range="1s-2s" starttimestamp="1623354007988" timestamp="41014">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[1063]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="24" _type="ConsoleOutput" date="Thu Jun 10 15:40:49 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="41014" type="ConsoleOutput">
+    <outputString><![CDATA[Illegal signature,, missing :
+ Assuming parameters and return types do not matter
+Finished second pass checks:Thu Jun 10 15:40:48 EDT 2021
+Generating checks:Thu Jun 10 15:40:48 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) in"), Diff(INSERT,"Illegal signature,, missing :¶ Assuming parame"), Diff(EQUAL,"ter"), Diff(DELETE,"-"), Diff(INSERT,"s"), Diff(EQUAL," and "), Diff(DELETE,"intra class method call"), Diff(INSERT,"return types do not matter¶Finished second pass checks:Thu Jun 10 15:40:48 EDT 2021¶Generating check"), Diff(EQUAL,"s:Thu Jun 10 15:40:4"), Diff(DELETE,"6"), Diff(INSERT,"8"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="26" _type="ConsoleOutput" date="Thu Jun 10 15:40:49 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="41121" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating checks:Thu Jun 10 15:40:49 EDT 2021
+Generating externals:Thu Jun 10 15:40:49 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Illegal signature,, missing :¶ Assuming parameters and return types do not matter¶Finished second pass"), Diff(INSERT,"Finished Generating"), Diff(EQUAL," checks:Thu Jun 10 15:40:4"), Diff(DELETE,"8"), Diff(INSERT,"9"), Diff(EQUAL," EDT 2021¶Generating "), Diff(DELETE,"check"), Diff(INSERT,"external"), Diff(EQUAL,"s:Thu Jun 10 15:40:4"), Diff(DELETE,"8"), Diff(INSERT,"9"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="27" _type="ConsoleOutput" date="Thu Jun 10 15:40:49 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="41247" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Thu Jun 10 15:40:49 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Finished "), Diff(DELETE,"Generating checks:Thu Jun 10 15:40:49 EDT 2021¶"), Diff(EQUAL,"Generating externals:Thu Jun 10 15:40:49 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="28" _type="ConsoleOutput" date="Thu Jun 10 15:40:49 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="41894" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Thu Jun 10 15:40:49 EDT 2021"), Diff(INSERT,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="29" _type="ConsoleOutput" date="Thu Jun 10 15:40:49 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="41972" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="30" _type="ConsoleOutput" date="Thu Jun 10 15:40:50 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="42041" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Added One¶"), Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="32" _type="PauseCommand" date="Thu Jun 10 15:40:58 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="50063">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8022]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="31" _type="ConsoleOutput" date="Thu Jun 10 15:40:58 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="50063" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+PaintedPainted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶PaintedPainted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="34" _type="PauseCommand" date="Thu Jun 10 15:41:03 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="55339">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5276]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="33" _type="ConsoleOutput" date="Thu Jun 10 15:41:03 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="55339" type="ConsoleOutput">
+    <outputString><![CDATA[Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶PaintedPainted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="36" _type="PauseCommand" date="Thu Jun 10 15:41:05 EDT 2021" range="2s-5s" starttimestamp="1623354007988" timestamp="57358">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2019]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="35" _type="ConsoleOutput" date="Thu Jun 10 15:41:05 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="57358" type="ConsoleOutput">
+    <outputString><![CDATA[ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/ABetterBridgeScene.java:1: No method in class mp.bridgeSceneFigures.ABetterBridgeScene:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall][WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(INSERT,"ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/ABetterBridgeScene.java:1: No method in class mp.bridgeSceneFigures.ABetterBridgeScene:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall][WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="37" _type="ConsoleOutput" date="Thu Jun 10 15:41:05 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="57417" type="ConsoleOutput">
+    <outputString><![CDATA[Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/ABetterBridgeScene.java:1: No method in class mp.bridgeSceneFigures.ABetterBridgeScene:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall][WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0¶"), Diff(INSERT,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="39" _type="PauseCommand" date="Thu Jun 10 15:41:08 EDT 2021" range="2s-5s" starttimestamp="1623354007988" timestamp="60228">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2811]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="38" _type="ConsoleOutput" date="Thu Jun 10 15:41:08 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="60228" type="ConsoleOutput">
+    <outputString><![CDATA[SceneControllerAccessesArthur did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getArthur:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(INSERT,"SceneControllerAccessesArthur did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getArthur:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="40" _type="ConsoleOutput" date="Thu Jun 10 15:41:08 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="60305" type="ConsoleOutput">
+    <outputString><![CDATA[SceneControllerAccessesGalahad did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getGalahad:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+SceneControllerAccessesLancelot did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getLancelot:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"SceneControllerAccesses"), Diff(DELETE,"Arthur"), Diff(INSERT,"Galahad"), Diff(EQUAL," did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!get"), Diff(DELETE,"Arthur"), Diff(INSERT,"Galahad:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶SceneControllerAccessesLancelot did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getLancelot"), Diff(EQUAL,":-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶")]]]></diff>
+  </Command>
+  <Command __id="41" _type="ConsoleOutput" date="Thu Jun 10 15:41:08 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="60371" type="ConsoleOutput">
+    <outputString><![CDATA[SceneControllerAccessesRobin did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getGalahad:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+ArthurBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesArthur before running this test
+
+LancelotBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesLancelot before running this test
+
+GalahadBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesGalahad before running this test
+
+RobinBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesRobin before running this test
+
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"SceneControllerAccesses"), Diff(DELETE,"Galahad"), Diff(INSERT,"Robin"), Diff(EQUAL," did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getGalahad:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(DELETE,"SceneControllerAccessesLancelot did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getLancelot:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class name"), Diff(INSERT,"ArthurBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesArthur before running this test¶¶LancelotBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesLancelot before running this test¶¶GalahadBridgeSceneController did not pass completely:Please find in the appropiate suite an"), Diff(EQUAL,"d "), Diff(INSERT,"c"), Diff(EQUAL,"or"), Diff(DELETE," tagged properly and checkstyle file upto date?%0.0"), Diff(INSERT,"rect test  SceneControllerAccessesGalahad before running this test¶¶RobinBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesRobin before running this test"), Diff(EQUAL,"¶¶")]]]></diff>
+  </Command>
+  <Command __id="42" _type="ConsoleOutput" date="Thu Jun 10 15:41:08 EDT 2021" overflow="false" starttimestamp="1623354007988" timestamp="60432" type="ConsoleOutput">
+    <outputString><![CDATA[Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"SceneControllerAccessesRobin did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!getGalahad:-> @Comp301Tags.AVATAR(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶ArthurBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesArthur before running this test¶¶LancelotBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesLancelot before running this test¶¶GalahadBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesGalahad before running this test¶¶RobinBridgeSceneController did not pass completely:Please find in the appropiate suite and correct test  SceneControllerAccessesRobin before running this test¶"), Diff(INSERT,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="44" _type="PauseCommand" date="Thu Jun 10 15:41:12 EDT 2021" range="2s-5s" starttimestamp="1623354007988" timestamp="64524">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4092]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="43" _type="ShellCommand" date="Thu Jun 10 15:41:12 EDT 2021" starttimestamp="1623354007988" timestamp="64524" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="45" _type="MoveCaretCommand" caretOffset="321" date="Thu Jun 10 15:41:12 EDT 2021" docOffset="532" starttimestamp="1623354007988" timestamp="64625" />
+  <Command __id="47" _type="PauseCommand" date="Thu Jun 10 15:41:26 EDT 2021" range="10s-20s" starttimestamp="1623354007988" timestamp="78874">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[14249]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="46" _type="ShellCommand" date="Thu Jun 10 15:41:26 EDT 2021" starttimestamp="1623354007988" timestamp="78874" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="49" _type="PauseCommand" date="Thu Jun 10 15:42:52 EDT 2021" range="1m-2m" starttimestamp="1623354007988" timestamp="164946">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[86072]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="48" _type="ShellCommand" date="Thu Jun 10 15:42:52 EDT 2021" starttimestamp="1623354007988" timestamp="164946" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="53" _type="PauseCommand" date="Thu Jun 10 15:43:12 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="184603">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[6673]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="52" _type="RunCommand" date="Thu Jun 10 15:43:12 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623354007988" timestamp="184603" type="Run" />
+  <Command __id="54" _type="RunCommand" date="Thu Jun 10 15:43:12 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623354007988" timestamp="184605" type="Run" />
+  <Command __id="56" _type="PauseCommand" date="Thu Jun 10 15:43:17 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="189643">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[5038]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="55" _type="ShellCommand" date="Thu Jun 10 15:43:17 EDT 2021" starttimestamp="1623354007988" timestamp="189643" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="58" _type="PauseCommand" date="Thu Jun 10 15:43:26 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="198068">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[8425]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="57" _type="ShellCommand" date="Thu Jun 10 15:43:26 EDT 2021" starttimestamp="1623354007988" timestamp="198068" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="60" _type="PauseCommand" date="Thu Jun 10 15:43:36 EDT 2021" range="10s-20s" starttimestamp="1623354007988" timestamp="208537">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[10468]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="59" _type="ShellCommand" date="Thu Jun 10 15:43:36 EDT 2021" starttimestamp="1623354007988" timestamp="208536" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="62" _type="PauseCommand" date="Thu Jun 10 15:43:43 EDT 2021" range="5s-10s" starttimestamp="1623354007988" timestamp="215718">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7182]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="61" _type="ShellCommand" date="Thu Jun 10 15:43:43 EDT 2021" starttimestamp="1623354007988" timestamp="215718" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="64" _type="PauseCommand" date="Thu Jun 10 15:43:48 EDT 2021" range="2s-5s" starttimestamp="1623354007988" timestamp="220265">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4547]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="63" _type="ShellCommand" date="Thu Jun 10 15:43:48 EDT 2021" starttimestamp="1623354007988" timestamp="220265" type="ECLIPSE_LOST_FOCUS" />

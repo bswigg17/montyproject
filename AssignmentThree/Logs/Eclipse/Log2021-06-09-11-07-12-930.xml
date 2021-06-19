@@ -1,0 +1,581 @@
+<Events startTimestamp="1623251232930" logVersion="1.0.0.202105202021">
+  <Command __id="2329" _type="PauseCommand" date="Wed Jun 09 21:47:40 EDT 2021" range=">1h" starttimestamp="1623251232930" timestamp="38428002">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[31706137]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2328" _type="ShellCommand" date="Wed Jun 09 21:47:40 EDT 2021" starttimestamp="1623251232930" timestamp="38427998" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2331" _type="PauseCommand" date="Wed Jun 09 21:48:00 EDT 2021" range="10s-20s" starttimestamp="1623251232930" timestamp="38447260">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[19262]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2330" _type="ShellCommand" date="Wed Jun 09 21:48:00 EDT 2021" starttimestamp="1623251232930" timestamp="38447260" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2333" _type="PauseCommand" date="Wed Jun 09 21:48:20 EDT 2021" range="20s-30s" starttimestamp="1623251232930" timestamp="38467783">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[20523]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2332" _type="ShellCommand" date="Wed Jun 09 21:48:20 EDT 2021" starttimestamp="1623251232930" timestamp="38467783" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2334" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:48:21 EDT 2021" starttimestamp="1623251232930" timestamp="38468362" />
+  <Command __id="2335" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:48:22 EDT 2021" starttimestamp="1623251232930" timestamp="38469167" />
+  <Command __id="2337" _type="PauseCommand" date="Wed Jun 09 21:48:29 EDT 2021" range="5s-10s" starttimestamp="1623251232930" timestamp="38476379">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7212]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2336" _type="ShellCommand" date="Wed Jun 09 21:48:29 EDT 2021" starttimestamp="1623251232930" timestamp="38476379" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2339" _type="PauseCommand" date="Wed Jun 09 21:48:58 EDT 2021" range="20s-30s" starttimestamp="1623251232930" timestamp="38505737">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[29358]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2338" _type="ShellCommand" date="Wed Jun 09 21:48:58 EDT 2021" starttimestamp="1623251232930" timestamp="38505737" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2340" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:48:58 EDT 2021" starttimestamp="1623251232930" timestamp="38505810" />
+  <Command __id="2341" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:48:58 EDT 2021" starttimestamp="1623251232930" timestamp="38505814" />
+  <Command __id="2348" _type="PauseCommand" date="Wed Jun 09 21:49:14 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38521525">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1094]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="2347" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:49:14 EDT 2021" starttimestamp="1623251232930" timestamp="38521525" />
+  <Command __id="2349" _type="ShellCommand" date="Wed Jun 09 21:49:14 EDT 2021" starttimestamp="1623251232930" timestamp="38521625" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2350" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:49:14 EDT 2021" starttimestamp="1623251232930" timestamp="38521853" />
+  <Command __id="2352" _type="PauseCommand" date="Wed Jun 09 21:49:21 EDT 2021" range="5s-10s" starttimestamp="1623251232930" timestamp="38528580">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[6727]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="2353" _type="MoveCaretCommand" caretOffset="864" date="Wed Jun 09 21:49:21 EDT 2021" docOffset="1075" starttimestamp="1623251232930" timestamp="38528811" />
+  <Command __id="2357" _type="PauseCommand" date="Wed Jun 09 21:49:24 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38531987">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1882]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="2356" _type="RunCommand" date="Wed Jun 09 21:49:24 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38531987" type="Run" />
+  <Command __id="2358" _type="RunCommand" date="Wed Jun 09 21:49:24 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38531988" type="Run" />
+  <Command __id="2360" _type="PauseCommand" date="Wed Jun 09 21:49:26 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38533637">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1649]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2359" _type="ShellCommand" date="Wed Jun 09 21:49:26 EDT 2021" starttimestamp="1623251232930" timestamp="38533637" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2362" _type="PauseCommand" date="Wed Jun 09 21:49:35 EDT 2021" range="5s-10s" starttimestamp="1623251232930" timestamp="38542846">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[9209]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2361" _type="ConsoleOutput" date="Wed Jun 09 21:49:35 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38542846" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0
+
+NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"."), Diff(INSERT,"TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0¶¶NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2363" _type="ConsoleOutput" date="Wed Jun 09 21:49:35 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38542913" type="ConsoleOutput">
+    <outputString><![CDATA[Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0¶¶NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test¶"), Diff(INSERT,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2365" _type="PauseCommand" date="Wed Jun 09 21:49:37 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38544717">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1804]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2364" _type="ConsoleOutput" date="Wed Jun 09 21:49:37 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38544717" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Wed Jun 09 21:49:37 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(INSERT,"Building symbol table and running first pass checks:Wed Jun 09 21:49:37 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2367" _type="PauseCommand" date="Wed Jun 09 21:49:40 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38547593">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2876]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2366" _type="ConsoleOutput" date="Wed Jun 09 21:49:40 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38547593" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:99
+Running second pass checks Wed Jun 09 21:49:40 EDT 2021
+Start O(n2) inter- and intra class method calls:Wed Jun 09 21:49:40 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:99¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Wed Jun 09 21:49:40 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Wed Jun 09 21:49:"), Diff(DELETE,"37"), Diff(INSERT,"40"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="2368" _type="ConsoleOutput" date="Wed Jun 09 21:49:40 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38547699" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Wed Jun 09 21:49:40 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:99¶Running second pass checks Wed Jun 09 21:49:40 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Wed Jun 09 21:49:40 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="2370" _type="PauseCommand" date="Wed Jun 09 21:49:42 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38549168">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1469]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2369" _type="ConsoleOutput" date="Wed Jun 09 21:49:42 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38549168" type="ConsoleOutput">
+    <outputString><![CDATA[Finished second pass checks:Wed Jun 09 21:49:42 EDT 2021
+Generating checks:Wed Jun 09 21:49:42 EDT 2021
+Finished Generating checks:Wed Jun 09 21:49:42 EDT 2021
+Generating externals:Wed Jun 09 21:49:42 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) inter- and intra class method cal"), Diff(INSERT,"Finished second pass checks:Wed Jun 09 21:49:42 EDT 2021¶Generating checks:Wed Jun 09 21:49:42 EDT 2021¶Finished Generating checks:Wed Jun 09 21:49:42 EDT 2021¶Generating externa"), Diff(EQUAL,"ls:Wed Jun 09 21:49:4"), Diff(DELETE,"0"), Diff(INSERT,"2"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="2371" _type="ConsoleOutput" date="Wed Jun 09 21:49:42 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38549439" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Wed Jun 09 21:49:42 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Finished "), Diff(DELETE,"second pass checks:Wed Jun 09 21:49:42 EDT 2021¶Generating checks:Wed Jun 09 21:49:42 EDT 2021¶Finished Generating checks:Wed Jun 09 21:49:42 EDT 2021¶"), Diff(EQUAL,"Generating externals:Wed Jun 09 21:49:42 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="2372" _type="ConsoleOutput" date="Wed Jun 09 21:49:42 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38549680" type="ConsoleOutput">
+    <outputString><![CDATA[ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Wed Jun 09 21:49:42 EDT 2021"), Diff(INSERT,"ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2373" _type="ConsoleOutput" date="Wed Jun 09 21:49:42 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38549831" type="ConsoleOutput">
+    <outputString><![CDATA[Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0¶"), Diff(INSERT,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2375" _type="PauseCommand" date="Wed Jun 09 21:49:44 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38551939">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2108]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2374" _type="ConsoleOutput" date="Wed Jun 09 21:49:44 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38551939" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedInheritingPainter did not pass completely:No class in project matching tag:InheritingBridgeScenePainter%0.0
+
+InheritingPainterFactoryMethodDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(INSERT,"TaggedInheritingPainter did not pass completely:No class in project matching tag:InheritingBridgeScenePainter%0.0¶¶InheritingPainterFactoryMethodDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2376" _type="ConsoleOutput" date="Wed Jun 09 21:49:45 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38552072" type="ConsoleOutput">
+    <outputString><![CDATA[
+InheritingViewISAPropertyChangeListener did not pass completely:Checkstyle output does not match:.*INFO.*java.beans.PropertyChangeListener.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER.*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+InheritingPainterPaintDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Tagged"), Diff(INSERT,"¶"), Diff(EQUAL,"Inheriting"), Diff(DELETE,"Painter did not pass completely:No class in project matching tag:InheritingBridgeScenePain"), Diff(INSERT,"ViewISAPropertyChangeListener did not pass completely:Checkstyle output does not match:.*INFO.*java.beans.PropertyChangeListener.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER.*. Is your class named or tagged properly and checkstyle file upto da"), Diff(EQUAL,"te"), Diff(DELETE,"r"), Diff(INSERT,"?"), Diff(EQUAL,"%0.0¶"), Diff(DELETE,"¶"), Diff(EQUAL,"InheritingPainter"), Diff(DELETE,"FactoryMethod"), Diff(INSERT,"Paint"), Diff(EQUAL,"Defined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test¶¶")]]]></diff>
+  </Command>
+  <Command __id="2377" _type="ConsoleOutput" date="Wed Jun 09 21:49:45 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38552143" type="ConsoleOutput">
+    <outputString><![CDATA[InheritingPainterRegistersWithLocatables did not pass completely:Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)(.*)!addPropertyChangeListener:PropertyChangeListener->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+InheritingPainterDraws did not pass completely:Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)(.*)!draw(.*):*->(.*)(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0Steps traced since last test:
+
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶"), Diff(EQUAL,"Inheriting"), Diff(DELETE,"ViewISAPropertyChangeListener"), Diff(INSERT,"PainterRegistersWithLocatables"), Diff(EQUAL," did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"java.beans.PropertyChangeListener.*"), Diff(EQUAL,"Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER"), Diff(INSERT,"(.*)(.*)!addPropertyChangeListener:PropertyChangeListener->void(.*)\[MissingMethodCall\]"), Diff(EQUAL,".*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"¶"), Diff(EQUAL,"InheritingPainter"), Diff(DELETE,"PaintDefined"), Diff(INSERT,"Draws"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"Please find in the appropiate suite an"), Diff(INSERT,"Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)(.*)!draw(.*):*->(.*)(.*)\[MissingMethodCall\].*. Is your class name"), Diff(EQUAL,"d "), Diff(DELETE,"c"), Diff(EQUAL,"or"), Diff(DELETE,"rect test  TaggedInheritingPainter before running this"), Diff(INSERT," tagged properly and checkstyle file upto date?%0.0Steps traced since last"), Diff(EQUAL," test"), Diff(INSERT,":¶"), Diff(EQUAL,"¶¶")]]]></diff>
+  </Command>
+  <Command __id="2378" _type="ConsoleOutput" date="Wed Jun 09 21:49:45 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38552243" type="ConsoleOutput">
+    <outputString><![CDATA[InheritingPainterRepaints did not pass completely:Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)repaint:->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+A3MainCallsInheritingPainterFactoryMethod did not pass completely:Please find in the appropiate suite and correct test  InheritingPainterFactoryMethodDefined before running this test
+
+Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"InheritingPainterRe"), Diff(DELETE,"gistersWithLocatable"), Diff(INSERT,"paint"), Diff(EQUAL,"s did not pass completely:Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)"), Diff(DELETE,"(.*)!addPropertyChangeListener:PropertyChangeListener"), Diff(INSERT,"repaint:"), Diff(EQUAL,"->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶"), Diff(INSERT,"A3MainCalls"), Diff(EQUAL,"InheritingPainter"), Diff(DELETE,"Draws"), Diff(INSERT,"FactoryMethod"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)(.*)!draw(.*):*->(.*)(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0Steps traced since last test:¶¶"), Diff(INSERT,"Please find in the appropiate suite and correct test  InheritingPainterFactoryMethodDefined before running this test¶¶Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2380" _type="PauseCommand" date="Wed Jun 09 21:49:46 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38553801">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1558]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2379" _type="ConsoleOutput" date="Wed Jun 09 21:49:46 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38553801" type="ConsoleOutput">
+    <outputString><![CDATA[SceneControllerFactoryMethodDefined did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AFactory.java:8: Missing signature @bridgeSceneControllerFactoryMethod:->@Comp301Tags.BRIDGE_SCENE_CONTROLLER in type mp.bridgeSceneFigures.AFactory:[@Comp301Tags.FACTORY_CLASS]. [ExpectedSignatures]%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"InheritingPainterRepaints did not pass completely:Checkstyle output does not match:.*INFO.*Comp301Tags\.INHERITING_BRIDGE_SCENE_PAINTER(.*)repaint:->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶A3MainCallsInheritingPainterFactoryMethod did not pass completely:Please find"), Diff(INSERT,"SceneControllerFactoryMethodDefined did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AFactory.java:8: Missing signature @bridgeSceneControllerFactoryMethod:->@Comp301Tags.BRIDGE_SCENE_CONTROLLER"), Diff(EQUAL," in t"), Diff(DELETE,"he appropiate suite and correct test  InheritingPainterFactoryMethodDefined before running this test¶¶Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(INSERT,"ype mp.bridgeSceneFigures.AFactory:[@Comp301Tags.FACTORY_CLASS]. [ExpectedSignatures]%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2381" _type="ConsoleOutput" date="Wed Jun 09 21:49:46 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38553891" type="ConsoleOutput">
+    <outputString><![CDATA[SceneControllerISAMouseListener did not pass completely:Checkstyle output does not match:.*INFO.*java.awt.event.MouseListener.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER.*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+
+SceneControllerISAKeyListener did not pass completely:Checkstyle output does not match:.*INFO.*java.awt.event.KeyListener.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER.*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"SceneController"), Diff(DELETE,"FactoryMethodDefi"), Diff(INSERT,"ISAMouseListe"), Diff(EQUAL,"ne"), Diff(DELETE,"d"), Diff(INSERT,"r"), Diff(EQUAL," did not pass completely:"), Diff(DELETE,"[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AFactory.java:8: Missing signature @bridgeSceneControllerFactoryMethod:->@Comp301Tags.BRIDGE_SCENE_CONTROLLER in type mp.bridgeSceneFigures.AFactory:[@Comp301Tags.FACTORY_CLASS]. [ExpectedSignatures]"), Diff(INSERT,"Checkstyle output does not match:.*INFO.*java.awt.event.MouseListener.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER.*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶¶¶SceneControllerISAKeyListener did not pass completely:Checkstyle output does not match:.*INFO.*java.awt.event.KeyListener.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER.*. Is your class named or tagged properly and checkstyle file upto date?"), Diff(EQUAL,"%0.0¶"), Diff(DELETE,"¶")]]]></diff>
+  </Command>
+  <Command __id="2382" _type="ConsoleOutput" date="Wed Jun 09 21:49:46 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38553946" type="ConsoleOutput">
+    <outputString><![CDATA[
+SceneControllerRegistersAsMouseListener did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!addMouseListener:java.awt.event.MouseListener->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+SceneControllerRegistersAsKeyListener did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!addKeyListener:java.awt.event.KeyListener->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"¶"), Diff(EQUAL,"SceneController"), Diff(DELETE,"ISA"), Diff(INSERT,"RegistersAs"), Diff(EQUAL,"MouseListener did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"java.awt.event.MouseListener.*"), Diff(EQUAL,"@Comp301Tags.BRIDGE_SCENE_CONTROLLER"), Diff(INSERT,"(.*)(.*)!addMouseListener:java.awt.event.MouseListener->void(.*)\[MissingMethodCall\]"), Diff(EQUAL,".*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(DELETE,"¶¶"), Diff(EQUAL,"SceneController"), Diff(DELETE,"ISA"), Diff(INSERT,"RegistersAs"), Diff(EQUAL,"KeyListener did not pass completely:Checkstyle output does not match:.*INFO.*"), Diff(DELETE,"java.awt.event.KeyListener.*"), Diff(EQUAL,"@Comp301Tags.BRIDGE_SCENE_CONTROLLER"), Diff(INSERT,"(.*)(.*)!addKeyListener:java.awt.event.KeyListener->void(.*)\[MissingMethodCall\]"), Diff(EQUAL,".*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"¶")]]]></diff>
+  </Command>
+  <Command __id="2383" _type="ExceptionCommand" date="Wed Jun 09 21:49:46 EDT 2021" starttimestamp="1623251232930" timestamp="38554002" type="Exception">
+    <exceptionString><![CDATA[cannot create proxy for non interface class
+java.lang.NoSuchMethodException: mp.bridgeSceneFigures.AMouseAndKeyController.<init>()
+java.lang.AssertionError: Could not get bridge scene controller%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase.assertTrue(BridgeSceneDynamicTestCase.java:82)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.createController(ArthurBridgeSceneControllerTestCase.java:59)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.create(ArthurBridgeSceneControllerTestCase.java:116)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.doTest(ArthurBridgeSceneControllerTestCase.java:159)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="2384" _type="ExceptionCommand" date="Wed Jun 09 21:49:46 EDT 2021" starttimestamp="1623251232930" timestamp="38554058" type="Exception">
+    <exceptionString><![CDATA[
+
+cannot create proxy for non interface class
+java.lang.NoSuchMethodException: mp.bridgeSceneFigures.AMouseAndKeyController.<init>()
+java.lang.AssertionError: Could not get bridge scene controller%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase.assertTrue(BridgeSceneDynamicTestCase.java:82)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.createController(ArthurBridgeSceneControllerTestCase.java:59)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.create(ArthurBridgeSceneControllerTestCase.java:116)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.doTest(ArthurBridgeSceneControllerTestCase.java:159)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="2385" _type="ExceptionCommand" date="Wed Jun 09 21:49:47 EDT 2021" starttimestamp="1623251232930" timestamp="38554165" type="Exception">
+    <exceptionString><![CDATA[java.lang.NoSuchMethodException: mp.bridgeSceneFigures.AMouseAndKeyController.<init>()
+java.lang.AssertionError: Could not get bridge scene controller%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at gradingTools.comp401f16.assignment6.testcases.BridgeSceneDynamicTestCase.assertTrue(BridgeSceneDynamicTestCase.java:82)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.createController(ArthurBridgeSceneControllerTestCase.java:59)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.create(ArthurBridgeSceneControllerTestCase.java:116)
+	at gradingTools.comp401f16.assignment9.testcases.bridgecontroller.ArthurBridgeSceneControllerTestCase.doTest(ArthurBridgeSceneControllerTestCase.java:159)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1357)
+	at bus.uigen.editors.TreeAdapter.mouseClicked(TreeAdapter.java:469)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6638)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+]]></exceptionString>
+    <language><![CDATA[java]]></language>
+  </Command>
+  <Command __id="2389" _type="PauseCommand" date="Wed Jun 09 21:49:58 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38565820">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1907]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="2388" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:49:58 EDT 2021" starttimestamp="1623251232930" timestamp="38565820" />
+  <Command __id="2390" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:49:58 EDT 2021" starttimestamp="1623251232930" timestamp="38565821" />
+  <Command __id="2413" _type="PauseCommand" date="Wed Jun 09 21:50:18 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38585412">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[4793]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="2412" _type="RunCommand" date="Wed Jun 09 21:50:18 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38585412" type="Run" />
+  <Command __id="2414" _type="RunCommand" date="Wed Jun 09 21:50:18 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38585412" type="Run" />
+  <Command __id="2415" _type="ShellCommand" date="Wed Jun 09 21:50:19 EDT 2021" starttimestamp="1623251232930" timestamp="38586367" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2417" _type="PauseCommand" date="Wed Jun 09 21:50:23 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38590781">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4414]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2416" _type="ConsoleOutput" date="Wed Jun 09 21:50:23 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38590781" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0
+
+NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test
+
+Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶SceneControllerRegistersAsMouseListener did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!addMouseListener:java.awt.event.MouseListener->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶SceneControllerRegistersAsKeyListener did not pass completely:Checkstyle output does not match:.*INFO.*@Comp301Tags.BRIDGE_SCENE_CONTROLLER(.*)(.*)!addKeyListener:java.awt.event.KeyL"), Diff(INSERT,"TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0¶¶NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running th"), Diff(EQUAL,"is"), Diff(INSERT," "), Diff(EQUAL,"te"), Diff(DELETE,"ner->void(.*)\[MissingMethodCall\].*. Is your class named or tagged properly and checkstyle file upto date?%0.0¶"), Diff(INSERT,"st¶¶Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2419" _type="PauseCommand" date="Wed Jun 09 21:50:31 EDT 2021" range="5s-10s" starttimestamp="1623251232930" timestamp="38598153">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[7372]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2418" _type="ShellCommand" date="Wed Jun 09 21:50:31 EDT 2021" starttimestamp="1623251232930" timestamp="38598153" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2421" _type="PauseCommand" date="Wed Jun 09 21:50:33 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38600412">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2259]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2420" _type="ShellCommand" date="Wed Jun 09 21:50:33 EDT 2021" starttimestamp="1623251232930" timestamp="38600412" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2422" _type="ConsoleOutput" date="Wed Jun 09 21:50:33 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38600646" type="ConsoleOutput">
+    <outputString><![CDATA[Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xmlI***{AWT-EventQueue-0}(TestCaseResult) ### anonymous: 0.0
+
+
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+ConsoleSceneViewGetsBridgeScene did not pass completely:No checkstyle output, check console error messages%0.0
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+ConsoleSceneViewRegistersWithLocatables did not pass completely:No checkstyle output, check console error messages%0.0
+
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+ConsoleSceneViewISAPropertyChangeListener did not pass completely:No checkstyle output, check console error messages%0.0
+
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+ConsoleSceneViewPrintsPropertyChangeEvent did not pass completely:No checkstyle output, check console error messages%0.0
+
+Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0¶¶NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test"), Diff(INSERT,"Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xmlI***{AWT-EventQueue-0}(TestCaseResult) ### anonymous: 0.0¶¶¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶ConsoleSceneViewGetsBridgeScene did not pass completely:No checkstyle output, check console error messages%0.0¶Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶ConsoleSceneViewRegistersWithLocatables did not pass completely:No checkstyle output, check console error messages%0.0¶¶Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶ConsoleSceneViewISAPropertyChangeListener did not pass completely:No checkstyle output, check console error messages%0.0¶¶Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶ConsoleSceneViewPrintsPropertyChangeEvent did not pass completely:No checkstyle output, check console error messages%0.0"), Diff(EQUAL,"¶¶Error resolving local checks server sending¶Thrown message:¶No such file or directory¶")]]]></diff>
+  </Command>
+  <Command __id="2424" _type="PauseCommand" date="Wed Jun 09 21:50:38 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38605163">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4517]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2423" _type="ConsoleOutput" date="Wed Jun 09 21:50:38 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38605163" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedInheritingPainter did not pass completely:No class in project matching tag:InheritingBridgeScenePainter%0.0
+
+InheritingPainterFactoryMethodDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test
+
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+InheritingViewISAPropertyChangeListener did not pass completely:No checkstyle output, check console error messages%0.0
+
+InheritingPainterPaintDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test
+
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+InheritingPainterRegistersWithLocatables did not pass completely:No checkstyle output, check console error messages%0.0
+
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+InheritingPainterDraws did not pass completely:No checkstyle output, check console error messages%0.0
+
+Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml
+Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks
+InheritingPainterRepaints did not pass completely:No checkstyle output, check console error messages%0.0
+
+A3MainCallsInheritingPainterFactoryMethod did not pass completely:Please find in the appropiate suite and correct test  InheritingPainterFactoryMethodDefined before running this test
+
+Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"TaggedInheritingPainter did not pass completely:No class in project matching tag:InheritingBridgeScenePainter%0.0¶¶InheritingPainterFactoryMethodDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test¶¶"), Diff(EQUAL,"Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml"), Diff(DELETE,"I***{AWT-EventQueue-0}(TestCaseResult) ### anonymous: 0.0¶¶"), Diff(EQUAL,"¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶"), Diff(DELETE,"ConsoleSceneViewGetsBridgeSc"), Diff(INSERT,"InheritingViewISAPropertyChangeList"), Diff(EQUAL,"ene"), Diff(INSERT,"r"), Diff(EQUAL," did not pass completely:No checkstyle output, check console error messages%0.0¶"), Diff(INSERT,"¶InheritingPainterPaintDefined did not pass completely:Please find in the appropiate suite and correct test  TaggedInheritingPainter before running this test¶¶"), Diff(EQUAL,"Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶"), Diff(DELETE,"ConsoleSceneView"), Diff(INSERT,"InheritingPainter"), Diff(EQUAL,"RegistersWithLocatables did not pass completely:No checkstyle output, check console error messages%0.0¶¶Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶"), Diff(DELETE,"ConsoleSceneViewISAPropertyChangeListener"), Diff(INSERT,"InheritingPainterDraws"), Diff(EQUAL," did not pass completely:No checkstyle output, check console error messages%0.0¶¶Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks¶"), Diff(DELETE,"ConsoleSceneViewPrintsPropertyChangeEve"), Diff(INSERT,"InheritingPainterRepai"), Diff(EQUAL,"nt"), Diff(INSERT,"s"), Diff(EQUAL," did not pass completely:No checkstyle output, check console error messages%0.0¶¶"), Diff(INSERT,"A3MainCallsInheritingPainterFactoryMethod did not pass completely:Please find in the appropiate suite and correct test  InheritingPainterFactoryMethodDefined before running this test¶¶"), Diff(EQUAL,"Error resolving local checks server sending¶Thrown message:¶No such file or directory¶")]]]></diff>
+  </Command>
+  <Command __id="2431" _type="PauseCommand" date="Wed Jun 09 21:50:48 EDT 2021" range="5s-10s" starttimestamp="1623251232930" timestamp="38615512">
+    <prevType><![CDATA[Exception]]></prevType>
+    <prev><![CDATA[ExceptionCommand]]></prev>
+    <pause><![CDATA[7171]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="2430" _type="RunCommand" date="Wed Jun 09 21:50:48 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38615512" type="Run" />
+  <Command __id="2432" _type="RunCommand" date="Wed Jun 09 21:50:48 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38615512" type="Run" />
+  <Command __id="2433" _type="ShellCommand" date="Wed Jun 09 21:50:48 EDT 2021" starttimestamp="1623251232930" timestamp="38615566" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2443" _type="PauseCommand" date="Wed Jun 09 21:50:56 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38623449">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[1444]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="2442" _type="RunCommand" date="Wed Jun 09 21:50:56 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38623449" type="Run" />
+  <Command __id="2444" _type="RunCommand" date="Wed Jun 09 21:50:56 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38623449" type="Run" />
+  <Command __id="2445" _type="ShellCommand" date="Wed Jun 09 21:50:57 EDT 2021" starttimestamp="1623251232930" timestamp="38624389" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2447" _type="PauseCommand" date="Wed Jun 09 21:51:01 EDT 2021" range="2s-5s" starttimestamp="1623251232930" timestamp="38628750">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4361]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="2446" _type="ConsoleOutput" date="Wed Jun 09 21:51:01 EDT 2021" overflow="false" starttimestamp="1623251232930" timestamp="38628750" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0
+
+NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test
+
+Error resolving local checks server sending
+Thrown message:
+No such file or directory
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"cannot create proxy for non interface class"), Diff(INSERT,"TaggedDelegatingView did not pass completely:Class class mp.bridgeSceneFigures.BridgeScenePainter with tag ObservableBridgeScenePainter does not have an interface%0.0¶¶NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  TaggedDelegatingView before running this test¶¶Error resolving local checks server sending¶Thrown message:¶No such file or directory"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="2451" _type="PauseCommand" date="Wed Jun 09 21:51:09 EDT 2021" range="5s-10s" starttimestamp="1623251232930" timestamp="38636654">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5385]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="2450" _type="RunCommand" date="Wed Jun 09 21:51:09 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38636653" type="Run" />
+  <Command __id="2452" _type="RunCommand" date="Wed Jun 09 21:51:09 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623251232930" timestamp="38636654" type="Run" />
+  <Command __id="2453" _type="ShellCommand" date="Wed Jun 09 21:51:09 EDT 2021" starttimestamp="1623251232930" timestamp="38636713" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="2455" _type="PauseCommand" date="Wed Jun 09 21:51:22 EDT 2021" range="10s-20s" starttimestamp="1623251232930" timestamp="38649819">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[13106]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="2454" _type="ShellCommand" date="Wed Jun 09 21:51:22 EDT 2021" starttimestamp="1623251232930" timestamp="38649819" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="2462" _type="PauseCommand" date="Wed Jun 09 21:51:56 EDT 2021" range="1s-2s" starttimestamp="1623251232930" timestamp="38683151">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1322]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="2461" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:51:56 EDT 2021" starttimestamp="1623251232930" timestamp="38683151" />
+  <Command __id="2463" _type="EclipseCommand" commandID="" date="Wed Jun 09 21:51:56 EDT 2021" starttimestamp="1623251232930" timestamp="38683154" />
+</Events>

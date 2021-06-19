@@ -1,0 +1,35 @@
+<Events startTimestamp="1624066833550" logVersion="1.0.0.202106071651">
+  <Command __id="1" _type="EclipseCommand" commandID="" date="Fri Jun 18 21:40:34 EDT 2021" starttimestamp="1624066833550" timestamp="1225" />
+  <Command __id="3" _type="PauseCommand" date="Fri Jun 18 21:40:44 EDT 2021" range="5s-10s" starttimestamp="1624066833550" timestamp="10478">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[9241]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="7" _type="EclipseCommand" commandID="" date="Fri Jun 18 21:40:47 EDT 2021" starttimestamp="1624066833550" timestamp="13681" />
+  <Command __id="9" _type="PauseCommand" date="Fri Jun 18 21:40:54 EDT 2021" range="5s-10s" starttimestamp="1624066833550" timestamp="21181">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7500]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="17" _type="EclipseCommand" commandID="" date="Fri Jun 18 21:41:24 EDT 2021" starttimestamp="1624066833550" timestamp="51394" />
+  <Command __id="25" _type="EclipseCommand" commandID="" date="Fri Jun 18 21:41:25 EDT 2021" starttimestamp="1624066833550" timestamp="52246" />
+  <Command __id="27" _type="PauseCommand" date="Fri Jun 18 21:41:27 EDT 2021" range="1s-2s" starttimestamp="1624066833550" timestamp="54039">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1793]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="26" _type="ShellCommand" date="Fri Jun 18 21:41:27 EDT 2021" starttimestamp="1624066833550" timestamp="54039" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="29" _type="PauseCommand" date="Fri Jun 18 21:41:45 EDT 2021" range="10s-20s" starttimestamp="1624066833550" timestamp="72135">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[18096]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+</Events>

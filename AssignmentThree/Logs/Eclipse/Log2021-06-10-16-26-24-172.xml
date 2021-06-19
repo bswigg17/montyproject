@@ -1,0 +1,578 @@
+<Events startTimestamp="1623356784172" logVersion="1.0.0.202106071651">
+  <Command __id="1" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:26:24 EDT 2021" starttimestamp="1623356784172" timestamp="283" />
+  <Command __id="3" _type="MoveCaretCommand" caretOffset="682" date="Thu Jun 10 16:26:24 EDT 2021" docOffset="893" starttimestamp="1623356784172" timestamp="635" />
+  <Command __id="5" _type="PauseCommand" date="Thu Jun 10 16:26:41 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="17012">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[16369]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="4" _type="ShellCommand" date="Thu Jun 10 16:26:41 EDT 2021" starttimestamp="1623356784172" timestamp="17004" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="7" _type="PauseCommand" date="Thu Jun 10 16:26:58 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="34292">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[17287]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="6" _type="ShellCommand" date="Thu Jun 10 16:26:58 EDT 2021" starttimestamp="1623356784172" timestamp="34291" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="8" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:26:58 EDT 2021" starttimestamp="1623356784172" timestamp="34488" />
+  <Command __id="9" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:26:58 EDT 2021" starttimestamp="1623356784172" timestamp="34495" />
+  <Command __id="20" _type="PauseCommand" date="Thu Jun 10 16:27:09 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="45808">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4247]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="19" _type="ShellCommand" date="Thu Jun 10 16:27:09 EDT 2021" starttimestamp="1623356784172" timestamp="45808" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="21" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:27:10 EDT 2021" starttimestamp="1623356784172" timestamp="45971" />
+  <Command __id="22" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:27:10 EDT 2021" starttimestamp="1623356784172" timestamp="45973" />
+  <Command __id="39" _type="PauseCommand" date="Thu Jun 10 16:27:31 EDT 2021" range="5s-10s" starttimestamp="1623356784172" timestamp="67304">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7913]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="38" _type="ShellCommand" date="Thu Jun 10 16:27:31 EDT 2021" starttimestamp="1623356784172" timestamp="67304" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="40" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:27:31 EDT 2021" starttimestamp="1623356784172" timestamp="67463" />
+  <Command __id="41" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:27:31 EDT 2021" starttimestamp="1623356784172" timestamp="67465" />
+  <Command __id="43" _type="PauseCommand" date="Thu Jun 10 16:27:35 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="70895">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[3430]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="42" _type="ShellCommand" date="Thu Jun 10 16:27:35 EDT 2021" starttimestamp="1623356784172" timestamp="70895" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="44" _type="ShellCommand" date="Thu Jun 10 16:27:36 EDT 2021" starttimestamp="1623356784172" timestamp="71872" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="45" _type="EclipseCommand" commandID="org.eclipse.ui.edit.delete" date="Thu Jun 10 16:27:36 EDT 2021" starttimestamp="1623356784172" timestamp="71914" />
+  <Command __id="46" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:27:36 EDT 2021" starttimestamp="1623356784172" timestamp="71916" />
+  <Command __id="47" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:27:36 EDT 2021" starttimestamp="1623356784172" timestamp="71919" />
+  <Command __id="51" _type="PauseCommand" date="Thu Jun 10 16:27:46 EDT 2021" range="5s-10s" starttimestamp="1623356784172" timestamp="81991">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[7537]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="50" _type="RunCommand" date="Thu Jun 10 16:27:46 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="81991" type="Run" />
+  <Command __id="52" _type="RunCommand" date="Thu Jun 10 16:27:46 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="81994" type="Run" />
+  <Command __id="53" _type="ShellCommand" date="Thu Jun 10 16:27:47 EDT 2021" starttimestamp="1623356784172" timestamp="82965" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="57" _type="PauseCommand" date="Thu Jun 10 16:28:06 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="102775">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[16470]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="56" _type="RunCommand" date="Thu Jun 10 16:28:06 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="102775" type="Run" />
+  <Command __id="58" _type="RunCommand" date="Thu Jun 10 16:28:06 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="102777" type="Run" />
+  <Command __id="59" _type="ShellCommand" date="Thu Jun 10 16:28:07 EDT 2021" starttimestamp="1623356784172" timestamp="102837" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="67" _type="PauseCommand" date="Thu Jun 10 16:28:55 EDT 2021" range="20s-30s" starttimestamp="1623356784172" timestamp="151414">
+    <prevType><![CDATA[Open File]]></prevType>
+    <prev><![CDATA[DiffBasedFileOpenCommand]]></prev>
+    <pause><![CDATA[26147]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="69" _type="PauseCommand" date="Thu Jun 10 16:29:15 EDT 2021" range="20s-30s" starttimestamp="1623356784172" timestamp="171771">
+    <prevType><![CDATA[Open File]]></prevType>
+    <prev><![CDATA[DiffBasedFileOpenCommand]]></prev>
+    <pause><![CDATA[20358]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="68" _type="ShellCommand" date="Thu Jun 10 16:29:15 EDT 2021" starttimestamp="1623356784172" timestamp="171771" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="71" _type="PauseCommand" date="Thu Jun 10 16:29:47 EDT 2021" range="30s-1m" starttimestamp="1623356784172" timestamp="203640">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[31869]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="70" _type="ShellCommand" date="Thu Jun 10 16:29:47 EDT 2021" starttimestamp="1623356784172" timestamp="203640" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="75" _type="PauseCommand" date="Thu Jun 10 16:30:20 EDT 2021" range="1s-2s" starttimestamp="1623356784172" timestamp="236602">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1861]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="74" _type="ShellCommand" date="Thu Jun 10 16:30:20 EDT 2021" starttimestamp="1623356784172" timestamp="236602" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="76" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:30:20 EDT 2021" starttimestamp="1623356784172" timestamp="236665" />
+  <Command __id="77" _type="EclipseCommand" commandID="" date="Thu Jun 10 16:30:20 EDT 2021" starttimestamp="1623356784172" timestamp="236667" />
+  <Command __id="79" _type="PauseCommand" date="Thu Jun 10 16:30:24 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="240599">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[3932]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="80" _type="MoveCaretCommand" caretOffset="682" date="Thu Jun 10 16:30:25 EDT 2021" docOffset="893" starttimestamp="1623356784172" timestamp="240878" />
+  <Command __id="81" _type="RunCommand" date="Thu Jun 10 16:30:25 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="241744" type="Run" />
+  <Command __id="82" _type="RunCommand" date="Thu Jun 10 16:30:25 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="241744" type="Run" />
+  <Command __id="84" _type="PauseCommand" date="Thu Jun 10 16:30:26 EDT 2021" range="1s-2s" starttimestamp="1623356784172" timestamp="242753">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1009]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="83" _type="ShellCommand" date="Thu Jun 10 16:30:26 EDT 2021" starttimestamp="1623356784172" timestamp="242753" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="86" _type="PauseCommand" date="Thu Jun 10 16:30:30 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="246551">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3798]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="85" _type="ConsoleOutput" date="Thu Jun 10 16:30:30 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="246551" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu Jun 10 16:30:30 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Did not find file:/Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecks/unc_checks_301_A3.xml¶Download unc_checks_301_A3.xml and add it to directory /Users/sethwiggins/eclipse-workspace/AssignmentThree/./Logs/LocalChecksI***{main}(TestCaseResult) ### anonymous: 0.0¶¶¶DelegatingViewFactoryMethodDefined did not pass completely:No checkstyle output, check console error messages%0.0¶NewPaintListener did not pass completely:Please find in the appropiate suite and correct test  DelegatingViewFactoryMethodDefined before running this test¶"), Diff(INSERT,"Building symbol table and running first pass checks:Thu Jun 10 16:30:30 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="88" _type="PauseCommand" date="Thu Jun 10 16:30:33 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="249061">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2510]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="87" _type="ConsoleOutput" date="Thu Jun 10 16:30:33 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="249061" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:100
+Running second pass checks Thu Jun 10 16:30:33 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu Jun 10 16:30:33 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:100¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(DELETE,":"), Diff(INSERT," "), Diff(EQUAL,"Thu Jun 10 16:30:3"), Diff(DELETE,"0"), Diff(INSERT,"3 EDT 2021¶Start O(n2) inter- and intra class method calls:Thu Jun 10 16:30:33"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="89" _type="ConsoleOutput" date="Thu Jun 10 16:30:33 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="249179" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu Jun 10 16:30:33 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:100¶Running second pass checks Thu Jun 10 16:30:33 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu Jun 10 16:30:33 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="91" _type="PauseCommand" date="Thu Jun 10 16:30:35 EDT 2021" range="1s-2s" starttimestamp="1623356784172" timestamp="250927">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1747]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="90" _type="ConsoleOutput" date="Thu Jun 10 16:30:35 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="250926" type="ConsoleOutput">
+    <outputString><![CDATA[Illegal signature,, missing :
+ Assuming parameters and return types do not matter
+Finished second pass checks:Thu Jun 10 16:30:35 EDT 2021
+Generating checks:Thu Jun 10 16:30:35 EDT 2021
+Finished Generating checks:Thu Jun 10 16:30:35 EDT 2021
+Generating externals:Thu Jun 10 16:30:35 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) in"), Diff(INSERT,"Illegal signature,, missing :¶ Assuming parame"), Diff(EQUAL,"ter"), Diff(DELETE,"-"), Diff(INSERT,"s"), Diff(EQUAL," and "), Diff(DELETE,"intra class method cal"), Diff(INSERT,"return types do not matter¶Finished second pass checks:Thu Jun 10 16:30:35 EDT 2021¶Generating checks:Thu Jun 10 16:30:35 EDT 2021¶Finished Generating checks:Thu Jun 10 16:30:35 EDT 2021¶Generating externa"), Diff(EQUAL,"ls:Thu Jun 10 16:30:3"), Diff(DELETE,"3"), Diff(INSERT,"5"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="92" _type="ConsoleOutput" date="Thu Jun 10 16:30:35 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="251141" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Thu Jun 10 16:30:35 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Illegal signature,, missing :¶ Assuming parameters and return types do not matter¶Finished second pass checks:Thu Jun 10 16:30:35 EDT 2021¶Generating checks:Thu Jun 10 16:30:35 EDT 2021¶Finished Generating checks:Thu Jun 10 16:30:35 EDT 2021¶"), Diff(INSERT,"Finished "), Diff(EQUAL,"Generating externals:Thu Jun 10 16:30:35 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="93" _type="ConsoleOutput" date="Thu Jun 10 16:30:36 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="251975" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Thu Jun 10 16:30:35 EDT 2021"), Diff(INSERT,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="94" _type="ConsoleOutput" date="Thu Jun 10 16:30:36 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="252072" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Added One
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶Added One¶"), Diff(DELETE,"Added One"), Diff(INSERT,"Painted"), Diff(EQUAL,"¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="95" _type="ConsoleOutput" date="Thu Jun 10 16:30:36 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="252154" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Painted¶Painted¶Painted¶"), Diff(DELETE,"Painted¶Added One¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="97" _type="PauseCommand" date="Thu Jun 10 16:30:44 EDT 2021" range="5s-10s" starttimestamp="1623356784172" timestamp="260075">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[7921]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="96" _type="ConsoleOutput" date="Thu Jun 10 16:30:44 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="260075" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶"), Diff(EQUAL,"Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="99" _type="PauseCommand" date="Thu Jun 10 16:31:05 EDT 2021" range="20s-30s" starttimestamp="1623356784172" timestamp="281344">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[21269]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="98" _type="ConsoleOutput" date="Thu Jun 10 16:31:05 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="281344" type="ConsoleOutput">
+    <outputString><![CDATA[MouseEvent
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"MouseEvent¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶"), Diff(EQUAL,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(EQUAL,"ainted¶")]]]></diff>
+  </Command>
+  <Command __id="100" _type="ConsoleOutput" date="Thu Jun 10 16:31:05 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="281404" type="ConsoleOutput">
+    <outputString><![CDATA[MouseEvent
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"MouseEvent¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶")]]]></diff>
+  </Command>
+  <Command __id="102" _type="PauseCommand" date="Thu Jun 10 16:31:17 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="293448">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[12044]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="101" _type="ConsoleOutput" date="Thu Jun 10 16:31:17 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="293448" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"MouseEvent¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶")]]]></diff>
+  </Command>
+  <Command __id="104" _type="PauseCommand" date="Thu Jun 10 16:31:23 EDT 2021" range="5s-10s" starttimestamp="1623356784172" timestamp="299420">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5972]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="103" _type="ConsoleOutput" date="Thu Jun 10 16:31:23 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="299420" type="ConsoleOutput">
+    <outputString><![CDATA[LocatablePropertyChangeListenersProperty did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneObject/ALocatable.java:1: Missing getter for property PropertyChangeListeners of type List in parent type @Comp301Tags.LOCATABLE [ExpectedGetters]%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"LocatablePropertyChangeListenersProperty did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneObject/ALocatable.java:1: Missing getter for property PropertyChangeListeners of type List in parent type @Comp301Tags.LOCATABLE [ExpectedGetters]%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="106" _type="PauseCommand" date="Thu Jun 10 16:31:41 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="317060">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[17640]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="105" _type="ConsoleOutput" date="Thu Jun 10 16:31:41 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="317060" type="ConsoleOutput">
+    <outputString><![CDATA[ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"LocatablePropertyChangeL"), Diff(INSERT,"ConsoleSceneViewReg"), Diff(EQUAL,"iste"), Diff(DELETE,"ne"), Diff(EQUAL,"rs"), Diff(DELETE,"Property"), Diff(INSERT,"WithLocatables"), Diff(EQUAL," did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeScene"), Diff(DELETE,"Object/ALocatable.java:1: Missing getter for property PropertyChangeListeners of type List in parent type @Comp301Tags.LOCATABLE [ExpectedGetters"), Diff(INSERT,"Figures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall"), Diff(EQUAL,"]%0.0¶¶")]]]></diff>
+  </Command>
+  <Command __id="108" _type="PauseCommand" date="Thu Jun 10 16:31:54 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="330416">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[13356]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="107" _type="ShellCommand" date="Thu Jun 10 16:31:54 EDT 2021" starttimestamp="1623356784172" timestamp="330416" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="109" _type="MoveCaretCommand" caretOffset="947" date="Thu Jun 10 16:31:54 EDT 2021" docOffset="1158" starttimestamp="1623356784172" timestamp="330495" />
+  <Command __id="111" _type="PauseCommand" date="Thu Jun 10 16:31:57 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="333510">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3015]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="110" _type="ShellCommand" date="Thu Jun 10 16:31:57 EDT 2021" starttimestamp="1623356784172" timestamp="333510" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="113" _type="PauseCommand" date="Thu Jun 10 16:32:47 EDT 2021" range="30s-1m" starttimestamp="1623356784172" timestamp="383114">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[49604]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="112" _type="ShellCommand" date="Thu Jun 10 16:32:47 EDT 2021" starttimestamp="1623356784172" timestamp="383114" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="115" _type="PauseCommand" date="Thu Jun 10 16:33:57 EDT 2021" range="1m-2m" starttimestamp="1623356784172" timestamp="453723">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[70609]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="114" _type="ShellCommand" date="Thu Jun 10 16:33:57 EDT 2021" starttimestamp="1623356784172" timestamp="453723" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="117" _type="PauseCommand" date="Thu Jun 10 16:35:26 EDT 2021" range="1m-2m" starttimestamp="1623356784172" timestamp="542271">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[88548]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="116" _type="ShellCommand" date="Thu Jun 10 16:35:26 EDT 2021" starttimestamp="1623356784172" timestamp="542271" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="119" _type="PauseCommand" date="Thu Jun 10 16:41:38 EDT 2021" range="5m-10m" starttimestamp="1623356784172" timestamp="914079">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[371808]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="118" _type="ShellCommand" date="Thu Jun 10 16:41:38 EDT 2021" starttimestamp="1623356784172" timestamp="914079" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="121" _type="PauseCommand" date="Thu Jun 10 16:53:28 EDT 2021" range="10m-20m" starttimestamp="1623356784172" timestamp="1624302">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[710223]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="120" _type="ShellCommand" date="Thu Jun 10 16:53:28 EDT 2021" starttimestamp="1623356784172" timestamp="1624302" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="123" _type="PauseCommand" date="Thu Jun 10 16:53:32 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="1628376">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4074]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="122" _type="ShellCommand" date="Thu Jun 10 16:53:32 EDT 2021" starttimestamp="1623356784172" timestamp="1628376" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="125" _type="PauseCommand" date="Thu Jun 10 17:38:41 EDT 2021" range="30m-1h" starttimestamp="1623356784172" timestamp="4337011">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2708635]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[BalloonCommand]]></next>
+  </Command>
+  <Command __id="124" _type="BalloonCommand" date="Thu Jun 10 17:38:41 EDT 2021" message="*******************************************
+Worked 4 minutes(fixed)/9 minutes(context based) from
+Thu Jun 10 16:26:24 EDT 2021 to Thu Jun 10 16:53:32 EDT 2021
+Edited 0 Projects: 
+Edited 0 Files: 
+Number of insert: 0
+Number of delete: 0
+" starttimestamp="1623356784172" timestamp="4337011">
+    <fineGrainedWorkTime><![CDATA[9]]></fineGrainedWorkTime>
+    <insert><![CDATA[0]]></insert>
+    <startTime><![CDATA[1623356784455]]></startTime>
+    <endTime><![CDATA[1623358412548]]></endTime>
+    <workTime><![CDATA[4]]></workTime>
+    <delete><![CDATA[0]]></delete>
+  </Command>
+  <Command __id="127" _type="PauseCommand" date="Thu Jun 10 18:17:36 EDT 2021" range="30m-1h" starttimestamp="1623356784172" timestamp="6672626">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[BalloonCommand]]></prev>
+    <pause><![CDATA[2335613]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="126" _type="ConsoleOutput" date="Thu Jun 10 18:17:36 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="6672624" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0¶"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="128" _type="ConsoleOutput" date="Thu Jun 10 18:17:37 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="6673174" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="129" _type="ConsoleOutput" date="Thu Jun 10 18:17:37 EDT 2021" overflow="false" starttimestamp="1623356784172" timestamp="6673425" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="133" _type="PauseCommand" date="Thu Jun 10 18:18:45 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="6741819">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[19710]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="132" _type="RunCommand" date="Thu Jun 10 18:18:45 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="6741819" type="Run" />
+  <Command __id="134" _type="RunCommand" date="Thu Jun 10 18:18:45 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623356784172" timestamp="6741820" type="Run" />
+  <Command __id="135" _type="ShellCommand" date="Thu Jun 10 18:18:46 EDT 2021" starttimestamp="1623356784172" timestamp="6742621" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="137" _type="PauseCommand" date="Thu Jun 10 18:19:24 EDT 2021" range="30s-1m" starttimestamp="1623356784172" timestamp="6780270">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[37648]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="136" _type="ShellCommand" date="Thu Jun 10 18:19:24 EDT 2021" starttimestamp="1623356784172" timestamp="6780269" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="139" _type="PauseCommand" date="Thu Jun 10 18:19:35 EDT 2021" range="10s-20s" starttimestamp="1623356784172" timestamp="6791756">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[11487]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="138" _type="ShellCommand" date="Thu Jun 10 18:19:35 EDT 2021" starttimestamp="1623356784172" timestamp="6791756" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="141" _type="PauseCommand" date="Thu Jun 10 18:19:59 EDT 2021" range="20s-30s" starttimestamp="1623356784172" timestamp="6815003">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[23247]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="140" _type="ShellCommand" date="Thu Jun 10 18:19:59 EDT 2021" starttimestamp="1623356784172" timestamp="6815003" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="142" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:19:59 EDT 2021" starttimestamp="1623356784172" timestamp="6815255" />
+  <Command __id="143" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:20:00 EDT 2021" starttimestamp="1623356784172" timestamp="6816090" />
+  <Command __id="150" _type="PauseCommand" date="Thu Jun 10 18:20:38 EDT 2021" range="1s-2s" starttimestamp="1623356784172" timestamp="6854357">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1137]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="149" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:20:38 EDT 2021" starttimestamp="1623356784172" timestamp="6854357" />
+  <Command __id="151" _type="ShellCommand" date="Thu Jun 10 18:20:38 EDT 2021" starttimestamp="1623356784172" timestamp="6854403" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="152" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:20:38 EDT 2021" starttimestamp="1623356784172" timestamp="6854682" />
+  <Command __id="154" _type="PauseCommand" date="Thu Jun 10 18:20:41 EDT 2021" range="2s-5s" starttimestamp="1623356784172" timestamp="6857770">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[3088]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="153" _type="ShellCommand" date="Thu Jun 10 18:20:41 EDT 2021" starttimestamp="1623356784172" timestamp="6857770" type="ECLIPSE_LOST_FOCUS" />
+</Events>

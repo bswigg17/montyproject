@@ -1,0 +1,10 @@
+<Events startTimestamp="1623687945348" logVersion="1.0.0.202106071651">
+  <Command __id="828" _type="PauseCommand" date="Mon Jun 14 21:24:07 EDT 2021" range="1s-2s" starttimestamp="1623687945348" timestamp="32302092">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1117]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="827" _type="MoveCaretCommand" caretOffset="376" date="Mon Jun 14 21:24:07 EDT 2021" docOffset="419" starttimestamp="1623687945348" timestamp="32302092" />
+</Events>

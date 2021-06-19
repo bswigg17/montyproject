@@ -1,0 +1,2191 @@
+<Events startTimestamp="1623364423520" logVersion="1.0.0.202106071651">
+  <Command __id="1" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:33:44 EDT 2021" starttimestamp="1623364423520" timestamp="1177" />
+  <Command __id="3" _type="PauseCommand" date="Thu Jun 10 18:33:55 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="11673">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[10490]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="6" _type="PauseCommand" date="Thu Jun 10 18:33:59 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="15914">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4052]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="5" _type="RunCommand" date="Thu Jun 10 18:33:59 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="15914" type="Run" />
+  <Command __id="7" _type="RunCommand" date="Thu Jun 10 18:33:59 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="15915" type="Run" />
+  <Command __id="9" _type="PauseCommand" date="Thu Jun 10 18:34:00 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="17471">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1555]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="8" _type="ShellCommand" date="Thu Jun 10 18:34:00 EDT 2021" starttimestamp="1623364423520" timestamp="17470" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="11" _type="PauseCommand" date="Thu Jun 10 18:34:07 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="23997">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6527]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="10" _type="ConsoleOutput" date="Thu Jun 10 18:34:07 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="23997" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu Jun 10 18:34:07 EDT 2021
+]]></outputString>
+    <diff><![CDATA[null]]></diff>
+  </Command>
+  <Command __id="13" _type="PauseCommand" date="Thu Jun 10 18:34:11 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="27586">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3589]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="12" _type="ConsoleOutput" date="Thu Jun 10 18:34:11 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="27586" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:99
+Running second pass checks Thu Jun 10 18:34:11 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu Jun 10 18:34:11 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:99¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Thu Jun 10 18:34:11 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Thu Jun 10 18:34:"), Diff(DELETE,"07"), Diff(INSERT,"11"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="14" _type="ConsoleOutput" date="Thu Jun 10 18:34:11 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="27707" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu Jun 10 18:34:11 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:99¶Running second pass checks Thu Jun 10 18:34:11 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu Jun 10 18:34:11 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="16" _type="PauseCommand" date="Thu Jun 10 18:34:13 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="30244">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2537]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="15" _type="ConsoleOutput" date="Thu Jun 10 18:34:13 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="30244" type="ConsoleOutput">
+    <outputString><![CDATA[Illegal signature,, missing :
+ Assuming parameters and return types do not matter
+Finished second pass checks:Thu Jun 10 18:34:13 EDT 2021
+Generating checks:Thu Jun 10 18:34:13 EDT 2021
+Finished Generating checks:Thu Jun 10 18:34:13 EDT 2021
+Generating externals:Thu Jun 10 18:34:13 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) in"), Diff(INSERT,"Illegal signature,, missing :¶ Assuming parame"), Diff(EQUAL,"ter"), Diff(DELETE,"-"), Diff(INSERT,"s"), Diff(EQUAL," and "), Diff(DELETE,"intra class method cal"), Diff(INSERT,"return types do not matter¶Finished second pass checks:Thu Jun 10 18:34:13 EDT 2021¶Generating checks:Thu Jun 10 18:34:13 EDT 2021¶Finished Generating checks:Thu Jun 10 18:34:13 EDT 2021¶Generating externa"), Diff(EQUAL,"ls:Thu Jun 10 18:34:1"), Diff(DELETE,"1"), Diff(INSERT,"3"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="17" _type="ConsoleOutput" date="Thu Jun 10 18:34:14 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="30599" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Thu Jun 10 18:34:14 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Illegal signature,, missing :¶ Assuming parameters and return types do not matter¶Finished second pass checks:Thu Jun 10 18:34:13 EDT 2021¶Generating checks:Thu Jun 10 18:34:13 EDT 2021¶Finished Generating checks:Thu Jun 10 18:34:13 EDT 2021¶"), Diff(INSERT,"Finished "), Diff(EQUAL,"Generating externals:Thu Jun 10 18:34:1"), Diff(DELETE,"3"), Diff(INSERT,"4"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="18" _type="ConsoleOutput" date="Thu Jun 10 18:34:14 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="31441" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Thu Jun 10 18:34:14 EDT 2021"), Diff(INSERT,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="19" _type="ConsoleOutput" date="Thu Jun 10 18:34:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="31534" type="ConsoleOutput">
+    <outputString><![CDATA[
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(INSERT,"¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="20" _type="ConsoleOutput" date="Thu Jun 10 18:34:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="31625" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"¶"), Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="21" _type="ConsoleOutput" date="Thu Jun 10 18:34:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="31758" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Added One¶"), Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="23" _type="PauseCommand" date="Thu Jun 10 18:34:23 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="39797">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8039]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="22" _type="ConsoleOutput" date="Thu Jun 10 18:34:23 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="39797" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Painted
+RepaintedRepainted
+Repainted
+Repainted
+Repainted
+PaintedPainted
+Painted
+Painted
+Painted
+RepaintedRepainted
+Repainted
+Repainted
+Repainted
+RepaintedRepainted
+Repainted
+Repainted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Painted¶RepaintedRepainted¶Repainted¶Repainted¶Repainted¶PaintedPainted¶Painted¶Painted¶Painted¶RepaintedRepainted¶Repainted¶Repainted¶Repainted¶RepaintedRepainted¶Repainted¶Repainted"), Diff(EQUAL,"¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="25" _type="PauseCommand" date="Thu Jun 10 18:34:38 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="55152">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[15355]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="24" _type="ExceptionCommand" date="Thu Jun 10 18:34:38 EDT 2021" starttimestamp="1623364423520" timestamp="55152" type="Exception">
+    <exceptionString><![CDATA[TaggedTable did not pass completely:No class in project matching tag:Table%0.0
+
+java.lang.AssertionError: Factory method returns instance of class mp.table.ATable instead of class mp.bridgeSceneObject.ALocatable%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)
+	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)
+	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+]]></exceptionString>
+    <language><![CDATA[SML]]></language>
+  </Command>
+  <Command __id="26" _type="ConsoleOutput" date="Thu Jun 10 18:34:38 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="55281" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedTable did not pass completely:No class in project matching tag:Table%0.0
+
+java.lang.AssertionError: Factory method returns instance of class mp.table.ATable instead of class mp.bridgeSceneObject.ALocatable%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)
+	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)
+	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Repainted¶Repa"), Diff(INSERT,"TaggedTable did not pass completely:No class in project matching tag:Table%0.0¶¶java.lang.AssertionError: Factory method returns instance of class mp.table.ATable "), Diff(EQUAL,"in"), Diff(INSERT,"s"), Diff(EQUAL,"te"), Diff(DELETE,"d¶Repainted¶Repainted¶Repainted¶Painted¶RepaintedRepainted¶Repainted¶Repainted¶Repainted¶PaintedPainted¶Painted¶Painted¶Painted¶RepaintedRepainted¶Repainted¶Repainted¶Repainted¶RepaintedRepainted¶Repainted¶Repainted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"ad of class mp.bridgeSceneObject.ALocatable%0.0¶	at org.junit.Assert.fail(Assert.java:88)¶	at org.junit.Assert.assertTrue(Assert.java:41)¶	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)¶	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)¶	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)¶	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)¶	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="28" _type="PauseCommand" date="Thu Jun 10 18:34:58 EDT 2021" range="20s-30s" starttimestamp="1623364423520" timestamp="75426">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[20145]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="27" _type="ShellCommand" date="Thu Jun 10 18:34:58 EDT 2021" starttimestamp="1623364423520" timestamp="75426" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="30" _type="PauseCommand" date="Thu Jun 10 18:35:14 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="90571">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[15145]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="31" _type="MoveCaretCommand" caretOffset="530" date="Thu Jun 10 18:35:14 EDT 2021" docOffset="939" starttimestamp="1623364423520" timestamp="91204" />
+  <Command __id="33" _type="PauseCommand" date="Thu Jun 10 18:36:04 EDT 2021" range="30s-1m" starttimestamp="1623364423520" timestamp="140678">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[49473]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="32" _type="MoveCaretCommand" caretOffset="738" date="Thu Jun 10 18:36:04 EDT 2021" docOffset="1147" starttimestamp="1623364423520" timestamp="140677" />
+  <Command __id="35" _type="PauseCommand" date="Thu Jun 10 18:36:07 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="143679">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3002]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="34" _type="SelectTextCommand" caretOffset="565" date="Thu Jun 10 18:36:07 EDT 2021" end="600" start="565" starttimestamp="1623364423520" timestamp="143679" />
+  <Command __id="36" _type="CopyCommand" date="Thu Jun 10 18:36:08 EDT 2021" starttimestamp="1623364423520" timestamp="144633" />
+  <Command __id="37" _type="MoveCaretCommand" caretOffset="708" date="Thu Jun 10 18:36:09 EDT 2021" docOffset="1117" starttimestamp="1623364423520" timestamp="145626" />
+  <Command __id="39" _type="PasteCommand" date="Thu Jun 10 18:36:09 EDT 2021" starttimestamp="1623364423520" timestamp="146207" />
+  <Command __id="41" _type="PauseCommand" date="Thu Jun 10 18:36:12 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="149335">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[3128]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="40" _type="SelectTextCommand" caretOffset="743" date="Thu Jun 10 18:36:12 EDT 2021" end="749" start="743" starttimestamp="1623364423520" timestamp="149335" />
+  <Command __id="43" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:36:13 EDT 2021" starttimestamp="1623364423520" timestamp="149992" />
+  <Command __id="45" _type="PauseCommand" date="Thu Jun 10 18:36:14 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="151413">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1421]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="44" _type="MoveCaretCommand" caretOffset="847" date="Thu Jun 10 18:36:14 EDT 2021" docOffset="1256" starttimestamp="1623364423520" timestamp="151413" />
+  <Command __id="47" _type="PasteCommand" date="Thu Jun 10 18:36:15 EDT 2021" starttimestamp="1623364423520" timestamp="151924" />
+  <Command __id="49" _type="PauseCommand" date="Thu Jun 10 18:36:17 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="153820">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[1896]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="48" _type="SelectTextCommand" caretOffset="882" date="Thu Jun 10 18:36:17 EDT 2021" end="888" start="882" starttimestamp="1623364423520" timestamp="153820" />
+  <Command __id="51" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:36:17 EDT 2021" starttimestamp="1623364423520" timestamp="154292" />
+  <Command __id="53" _type="PauseCommand" date="Thu Jun 10 18:36:20 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="157197">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[2905]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="52" _type="MoveCaretCommand" caretOffset="961" date="Thu Jun 10 18:36:20 EDT 2021" docOffset="1370" starttimestamp="1623364423520" timestamp="157197" />
+  <Command __id="55" _type="PasteCommand" date="Thu Jun 10 18:36:21 EDT 2021" starttimestamp="1623364423520" timestamp="157912" />
+  <Command __id="57" _type="PauseCommand" date="Thu Jun 10 18:36:23 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="160179">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[2267]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="56" _type="SelectTextCommand" caretOffset="996" date="Thu Jun 10 18:36:23 EDT 2021" end="1003" start="996" starttimestamp="1623364423520" timestamp="160179" />
+  <Command __id="59" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:36:24 EDT 2021" starttimestamp="1623364423520" timestamp="160923" />
+  <Command __id="61" _type="InsertStringCommand" date="Thu Jun 10 18:36:24 EDT 2021" starttimestamp="1623364423520" timestamp="161168" timestamp2="161168">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="62" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu Jun 10 18:36:25 EDT 2021" start_end="START" starttimestamp="1623364423520" timestamp="161633" />
+  <Command __id="64" _type="PauseCommand" date="Thu Jun 10 18:36:27 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="164112">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[AssistCommand]]></prev>
+    <pause><![CDATA[2479]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[AssistCommand]]></next>
+  </Command>
+  <Command __id="63" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu Jun 10 18:36:27 EDT 2021" start_end="END" starttimestamp="1623364423520" timestamp="164112" />
+  <Command __id="65" _type="MoveCaretCommand" caretOffset="910" date="Thu Jun 10 18:36:27 EDT 2021" docOffset="1319" starttimestamp="1623364423520" timestamp="164168" />
+  <Command __id="67" _type="PauseCommand" date="Thu Jun 10 18:36:29 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="165970">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1802]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="66" _type="SelectTextCommand" caretOffset="1106" date="Thu Jun 10 18:36:29 EDT 2021" end="1106" start="1100" starttimestamp="1623364423520" timestamp="165970" />
+  <Command __id="69" _type="PasteCommand" date="Thu Jun 10 18:36:29 EDT 2021" starttimestamp="1623364423520" timestamp="166436" />
+  <Command __id="71" _type="PauseCommand" date="Thu Jun 10 18:36:33 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="169585">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[3149]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="70" _type="SelectTextCommand" caretOffset="1245" date="Thu Jun 10 18:36:33 EDT 2021" end="1245" start="1239" starttimestamp="1623364423520" timestamp="169585" />
+  <Command __id="73" _type="PasteCommand" date="Thu Jun 10 18:36:33 EDT 2021" starttimestamp="1623364423520" timestamp="169733" />
+  <Command __id="75" _type="PauseCommand" date="Thu Jun 10 18:36:35 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="172448">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[PasteCommand]]></prev>
+    <pause><![CDATA[2715]]></pause>
+    <nextType><![CDATA[Select]]></nextType>
+    <next><![CDATA[SelectTextCommand]]></next>
+  </Command>
+  <Command __id="74" _type="SelectTextCommand" caretOffset="532" date="Thu Jun 10 18:36:35 EDT 2021" end="605" start="532" starttimestamp="1623364423520" timestamp="172448" />
+  <Command __id="77" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:36:36 EDT 2021" starttimestamp="1623364423520" timestamp="173007" />
+  <Command __id="83" _type="PauseCommand" date="Thu Jun 10 18:36:42 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="179181">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[4612]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="82" _type="RunCommand" date="Thu Jun 10 18:36:42 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="179181" type="Run" />
+  <Command __id="84" _type="RunCommand" date="Thu Jun 10 18:36:42 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="179182" type="Run" />
+  <Command __id="89" _type="PauseCommand" date="Thu Jun 10 18:36:49 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="186192">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1422]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="88" _type="RunCommand" date="Thu Jun 10 18:36:49 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="186192" type="Run" />
+  <Command __id="90" _type="RunCommand" date="Thu Jun 10 18:36:49 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="186197" type="Run" />
+  <Command __id="92" _type="PauseCommand" date="Thu Jun 10 18:36:50 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="187302">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1105]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="91" _type="ShellCommand" date="Thu Jun 10 18:36:50 EDT 2021" starttimestamp="1623364423520" timestamp="187302" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="94" _type="PauseCommand" date="Thu Jun 10 18:36:55 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="191912">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[4609]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="93" _type="ConsoleOutput" date="Thu Jun 10 18:36:55 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="191911" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu Jun 10 18:36:55 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"TaggedTable did not pass completely:No class in project matching tag:Table%0.0¶¶java.lang.AssertionError: Factory method returns instance of class mp.table.ATable instead of class mp.bridgeSceneObject.ALocatable%0.0¶	at org.junit.Assert.fail(Assert.java:88)¶	at org.junit.Assert.assertTrue(Assert.java:41)¶	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)¶	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)¶	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)¶	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)¶	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)"), Diff(INSERT,"Building symbol table and running first pass checks:Thu Jun 10 18:36:55 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="96" _type="PauseCommand" date="Thu Jun 10 18:36:58 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="195192">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3281]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="95" _type="ConsoleOutput" date="Thu Jun 10 18:36:58 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="195192" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:99
+Running second pass checks Thu Jun 10 18:36:58 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu Jun 10 18:36:58 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:99¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Thu Jun 10 18:36:58 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Thu Jun 10 18:36:5"), Diff(DELETE,"5"), Diff(INSERT,"8"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="97" _type="ConsoleOutput" date="Thu Jun 10 18:36:58 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="195315" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu Jun 10 18:36:58 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:99¶Running second pass checks Thu Jun 10 18:36:58 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu Jun 10 18:36:58 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="99" _type="PauseCommand" date="Thu Jun 10 18:37:01 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="197657">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2342]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="98" _type="ConsoleOutput" date="Thu Jun 10 18:37:01 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="197657" type="ConsoleOutput">
+    <outputString><![CDATA[Illegal signature,, missing :
+ Assuming parameters and return types do not matter
+Finished second pass checks:Thu Jun 10 18:37:01 EDT 2021
+Generating checks:Thu Jun 10 18:37:01 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) in"), Diff(INSERT,"Illegal signature,, missing :¶ Assuming parame"), Diff(EQUAL,"ter"), Diff(DELETE,"-"), Diff(INSERT,"s"), Diff(EQUAL," and "), Diff(DELETE,"intra class method call"), Diff(INSERT,"return types do not matter¶Finished second pass checks:Thu Jun 10 18:37:01 EDT 2021¶Generating check"), Diff(EQUAL,"s:Thu Jun 10 18:3"), Diff(DELETE,"6:58"), Diff(INSERT,"7:01"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="100" _type="ConsoleOutput" date="Thu Jun 10 18:37:01 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="197762" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating checks:Thu Jun 10 18:37:01 EDT 2021
+Generating externals:Thu Jun 10 18:37:01 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Illegal signature,, missing :¶ Assuming parameters and return types do not matter¶Finished second pass"), Diff(INSERT,"Finished Generating"), Diff(EQUAL," checks:Thu Jun 10 18:37:01 EDT 2021¶Generating "), Diff(DELETE,"check"), Diff(INSERT,"external"), Diff(EQUAL,"s:Thu Jun 10 18:37:01 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="101" _type="ConsoleOutput" date="Thu Jun 10 18:37:01 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="198211" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Thu Jun 10 18:37:01 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Finished "), Diff(DELETE,"Generating checks:Thu Jun 10 18:37:01 EDT 2021¶"), Diff(EQUAL,"Generating externals:Thu Jun 10 18:37:01 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="102" _type="ConsoleOutput" date="Thu Jun 10 18:37:02 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="199089" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Thu Jun 10 18:37:01 EDT 2021"), Diff(INSERT,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="103" _type="ConsoleOutput" date="Thu Jun 10 18:37:02 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="199186" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="104" _type="ConsoleOutput" date="Thu Jun 10 18:37:02 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="199278" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"Added One"), Diff(EQUAL,"¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="106" _type="PauseCommand" date="Thu Jun 10 18:37:10 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="207295">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8017]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="105" _type="ConsoleOutput" date="Thu Jun 10 18:37:10 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="207295" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+PaintedPainted
+Repainted
+Repainted
+Painted
+Repainted
+Painted
+Repainted
+Painted
+Repainted
+Painted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One"), Diff(INSERT,"Repainted¶PaintedPainted¶Repainted¶Repainted¶Painted¶Repainted¶Painted¶Repainted¶Painted¶Repainted¶Painted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted"), Diff(EQUAL,"¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="108" _type="PauseCommand" date="Thu Jun 10 18:37:15 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="211667">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4372]]></pause>
+    <nextType><![CDATA[Exception]]></nextType>
+    <next><![CDATA[ExceptionCommand]]></next>
+  </Command>
+  <Command __id="107" _type="ExceptionCommand" date="Thu Jun 10 18:37:15 EDT 2021" starttimestamp="1623364423520" timestamp="211667" type="Exception">
+    <exceptionString><![CDATA[TaggedTable did not pass completely:No class in project matching tag:Table%0.0
+
+java.lang.AssertionError: Factory method returns instance of class mp.table.ATable instead of class mp.bridgeSceneObject.ALocatable%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)
+	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)
+	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+]]></exceptionString>
+    <language><![CDATA[SML]]></language>
+  </Command>
+  <Command __id="109" _type="ConsoleOutput" date="Thu Jun 10 18:37:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="211682" type="ConsoleOutput">
+    <outputString><![CDATA[TaggedTable did not pass completely:No class in project matching tag:Table%0.0
+
+java.lang.AssertionError: Factory method returns instance of class mp.table.ATable instead of class mp.bridgeSceneObject.ALocatable%0.0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)
+	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)
+	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)
+	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)
+	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)
+	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)
+	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)
+	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)
+	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)
+	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)
+	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)
+	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)
+	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Repa"), Diff(INSERT,"TaggedTable did not pass completely:No class in project matching tag:Table%0.0¶¶java.lang.AssertionError: Factory method returns instance of class mp.table.ATable "), Diff(EQUAL,"in"), Diff(INSERT,"s"), Diff(EQUAL,"te"), Diff(DELETE,"d¶PaintedPainted¶Repainted¶Repainted¶Painted¶Repainted¶Painted¶Repainted¶Painted¶Repainted¶Painted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"ad of class mp.bridgeSceneObject.ALocatable%0.0¶	at org.junit.Assert.fail(Assert.java:88)¶	at org.junit.Assert.assertTrue(Assert.java:41)¶	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)¶	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)¶	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)¶	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)¶	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="111" _type="PauseCommand" date="Thu Jun 10 18:37:26 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="222573">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[10891]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="110" _type="ShellCommand" date="Thu Jun 10 18:37:26 EDT 2021" starttimestamp="1623364423520" timestamp="222573" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="113" _type="PauseCommand" date="Thu Jun 10 18:37:48 EDT 2021" range="20s-30s" starttimestamp="1623364423520" timestamp="244662">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[22087]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="112" _type="ConsoleOutput" date="Thu Jun 10 18:37:48 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="244660" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"TaggedTable did not pass completely:No class in project matching tag:Table%0.0¶¶java.lang.AssertionError: Factory method returns instance of class mp.table.ATable instead of class mp.bridgeSceneObject.ALocatable%0.0¶	at org.junit.Assert.fail(Assert.java:88)¶	at org.junit.Assert.assertTrue(Assert.java:41)¶	at grader.basics.testcase.PassFailJUnitTestCase.assertTrue(PassFailJUnitTestCase.java:223)¶	at gradingTools.shared.testcases.FactoryMethodTest.maybeUseConstructor(FactoryMethodTest.java:139)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:427)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:311)¶	at gradingTools.shared.testcases.FactoryMethodTest.getObjectFromFactory(FactoryMethodTest.java:242)¶	at gradingTools.shared.testcases.FactoryMethodTest.createUsingFactoryClassAndMethodTags(FactoryMethodTest.java:445)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.create(StringTableTest.java:79)¶	at gradingTools.comp401f16.assignment7.testcases.StringTableTest.doTest(StringTableTest.java:82)¶	at gradingTools.shared.testcases.MethodExecutionTest.test(MethodExecutionTest.java:767)¶	at gradingTools.shared.testcases.MethodExecutionTest.defaultTest(MethodExecutionTest.java:760)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)¶	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)¶	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)¶	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)¶	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)¶	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)¶	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)¶	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)¶	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)¶	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)¶	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)¶	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)¶	at grader.basics.junit.AGradableJUnitTest.test(AGradableJUnitTest.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.test(AGradableJUnitSuite.java:300)¶	at grader.basics.junit.AGradableJUnitSuite.open(AGradableJUnitSuite.java:179)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)¶	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)¶	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)¶	at java.base/java.lang.reflect.Method.invoke(Method.java:566)¶	at bus.uigen.reflect.local.AVirtualMethod.methodInvoke(AVirtualMethod.java:270)¶	at bus.uigen.reflect.UnifiedMethod.invoke(UnifiedMethod.java:219)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1444)¶	at bus.uigen.undo.BasicCommand.execute(BasicCommand.java:69)¶	at bus.uigen.undo.AHistoryUndoer.execute(AHistoryUndoer.java:99)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1906)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1701)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethods(MethodInvocationManager.java:1585)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1538)¶	at bus.uigen.controller.MethodInvocationManager.invokeMethod(MethodInvocationManager.java:1531)¶	at bus.uigen.controller.MethodInvocationManager.invokeDoubleClickMethod(MethodInvocationManager.java:1406)"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="115" _type="PauseCommand" date="Thu Jun 10 18:38:21 EDT 2021" range="30s-1m" starttimestamp="1623364423520" timestamp="277821">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[33161]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="114" _type="ShellCommand" date="Thu Jun 10 18:38:21 EDT 2021" starttimestamp="1623364423520" timestamp="277821" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="117" _type="PauseCommand" date="Thu Jun 10 18:40:12 EDT 2021" range="1m-2m" starttimestamp="1623364423520" timestamp="388801">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[110980]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="116" _type="ShellCommand" date="Thu Jun 10 18:40:12 EDT 2021" starttimestamp="1623364423520" timestamp="388801" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="119" _type="PauseCommand" date="Thu Jun 10 18:40:20 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="396623">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[7822]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="120" _type="MoveCaretCommand" caretOffset="368" date="Thu Jun 10 18:40:20 EDT 2021" docOffset="539" starttimestamp="1623364423520" timestamp="396836" />
+  <Command __id="122" _type="PauseCommand" date="Thu Jun 10 18:40:25 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="401641">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4805]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="123" _type="MoveCaretCommand" caretOffset="207" date="Thu Jun 10 18:40:25 EDT 2021" docOffset="326" starttimestamp="1623364423520" timestamp="401810" />
+  <Command __id="125" _type="PauseCommand" date="Thu Jun 10 18:40:38 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="414584">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[12774]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="126" _type="MoveCaretCommand" caretOffset="1333" date="Thu Jun 10 18:40:38 EDT 2021" docOffset="1414" starttimestamp="1623364423520" timestamp="414817" />
+  <Command __id="128" _type="PauseCommand" date="Thu Jun 10 18:40:50 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="427372">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[12555]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="127" _type="ShellCommand" date="Thu Jun 10 18:40:50 EDT 2021" starttimestamp="1623364423520" timestamp="427372" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="130" _type="PauseCommand" date="Thu Jun 10 18:45:34 EDT 2021" range="2m-5m" starttimestamp="1623364423520" timestamp="711179">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[283807]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="129" _type="ShellCommand" date="Thu Jun 10 18:45:34 EDT 2021" starttimestamp="1623364423520" timestamp="711179" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="132" _type="PauseCommand" date="Thu Jun 10 18:45:37 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="713878">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2699]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="133" _type="MoveCaretCommand" caretOffset="1354" date="Thu Jun 10 18:45:37 EDT 2021" docOffset="1542" starttimestamp="1623364423520" timestamp="714267" />
+  <Command __id="135" _type="PauseCommand" date="Thu Jun 10 18:45:42 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="718996">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[4729]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="136" _type="MoveCaretCommand" caretOffset="530" date="Thu Jun 10 18:45:42 EDT 2021" docOffset="939" starttimestamp="1623364423520" timestamp="719300" />
+  <Command __id="138" _type="PauseCommand" date="Thu Jun 10 18:45:48 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="725090">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[5790]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="137" _type="MoveCaretCommand" caretOffset="797" date="Thu Jun 10 18:45:48 EDT 2021" docOffset="1206" starttimestamp="1623364423520" timestamp="725090" />
+  <Command __id="140" _type="PauseCommand" date="Thu Jun 10 18:45:50 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="727200">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[2110]]></pause>
+    <nextType><![CDATA[Move Caret]]></nextType>
+    <next><![CDATA[MoveCaretCommand]]></next>
+  </Command>
+  <Command __id="139" _type="MoveCaretCommand" caretOffset="97" date="Thu Jun 10 18:45:50 EDT 2021" docOffset="506" starttimestamp="1623364423520" timestamp="727200" />
+  <Command __id="142" _type="PauseCommand" date="Thu Jun 10 18:45:52 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="728911">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1711]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Delete]]></next>
+  </Command>
+  <Command __id="143" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:52 EDT 2021" starttimestamp="1623364423520" timestamp="728919" />
+  <Command __id="145" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:52 EDT 2021" starttimestamp="1623364423520" timestamp="729051" />
+  <Command __id="147" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:52 EDT 2021" starttimestamp="1623364423520" timestamp="729147" />
+  <Command __id="149" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:52 EDT 2021" starttimestamp="1623364423520" timestamp="729274" />
+  <Command __id="151" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:53 EDT 2021" starttimestamp="1623364423520" timestamp="729588" />
+  <Command __id="153" _type="InsertStringCommand" date="Thu Jun 10 18:45:53 EDT 2021" starttimestamp="1623364423520" timestamp="730018" timestamp2="730018">
+    <data><![CDATA[A]]></data>
+  </Command>
+  <Command __id="155" _type="PauseCommand" date="Thu Jun 10 18:45:56 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="733083">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[InsertStringCommand]]></prev>
+    <pause><![CDATA[3065]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[Insert]]></next>
+  </Command>
+  <Command __id="156" _type="InsertStringCommand" date="Thu Jun 10 18:45:56 EDT 2021" starttimestamp="1623364423520" timestamp="733088" timestamp2="733088">
+    <data><![CDATA[_]]></data>
+  </Command>
+  <Command __id="158" _type="InsertStringCommand" date="Thu Jun 10 18:45:56 EDT 2021" starttimestamp="1623364423520" timestamp="733404" timestamp2="733404">
+    <data><![CDATA[B]]></data>
+  </Command>
+  <Command __id="160" _type="InsertStringCommand" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="733507" timestamp2="733507">
+    <data><![CDATA[R]]></data>
+  </Command>
+  <Command __id="162" _type="InsertStringCommand" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="733617" timestamp2="733617">
+    <data><![CDATA[I]]></data>
+  </Command>
+  <Command __id="164" _type="InsertStringCommand" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="733721" timestamp2="733721">
+    <data><![CDATA[D]]></data>
+  </Command>
+  <Command __id="166" _type="InsertStringCommand" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="733812" timestamp2="733812">
+    <data><![CDATA[G]]></data>
+  </Command>
+  <Command __id="168" _type="InsertStringCommand" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="733906" timestamp2="733906">
+    <data><![CDATA[E]]></data>
+  </Command>
+  <Command __id="170" _type="InsertStringCommand" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="733994" timestamp2="733994">
+    <data><![CDATA[ ]]></data>
+  </Command>
+  <Command __id="172" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:57 EDT 2021" starttimestamp="1623364423520" timestamp="734138" />
+  <Command __id="174" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="734614" />
+  <Command __id="176" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="734722" />
+  <Command __id="178" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="734834" />
+  <Command __id="180" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="734962" />
+  <Command __id="182" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="735069" />
+  <Command __id="184" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="735183" />
+  <Command __id="186" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="735299" />
+  <Command __id="188" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:58 EDT 2021" starttimestamp="1623364423520" timestamp="735424" />
+  <Command __id="190" _type="EclipseCommand" commandID="eventLogger.styledTextCommand.DELETE_PREVIOUS" date="Thu Jun 10 18:45:59 EDT 2021" starttimestamp="1623364423520" timestamp="735706" />
+  <Command __id="192" _type="InsertStringCommand" date="Thu Jun 10 18:45:59 EDT 2021" starttimestamp="1623364423520" timestamp="736213" timestamp2="736213">
+    <data><![CDATA[.]]></data>
+  </Command>
+  <Command __id="193" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="true" date="Thu Jun 10 18:45:59 EDT 2021" start_end="START" starttimestamp="1623364423520" timestamp="736227" />
+  <Command __id="197" _type="PauseCommand" date="Thu Jun 10 18:46:03 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="740262">
+    <prevType><![CDATA[Edit]]></prevType>
+    <prev><![CDATA[AssistCommand]]></prev>
+    <pause><![CDATA[4035]]></pause>
+    <nextType><![CDATA[Edit]]></nextType>
+    <next><![CDATA[AssistCommand]]></next>
+  </Command>
+  <Command __id="196" _type="AssistCommand" assist_type="CONTENT_ASSIST" auto_activated="false" date="Thu Jun 10 18:46:03 EDT 2021" start_end="END" starttimestamp="1623364423520" timestamp="740262" />
+  <Command __id="199" _type="InsertStringCommand" date="Thu Jun 10 18:46:03 EDT 2021" starttimestamp="1623364423520" timestamp="740278" timestamp2="740278">
+    <data><![CDATA[]]></data>
+  </Command>
+  <Command __id="200" _type="MoveCaretCommand" caretOffset="223" date="Thu Jun 10 18:46:04 EDT 2021" docOffset="632" starttimestamp="1623364423520" timestamp="741040" />
+  <Command __id="201" _type="EclipseCommand" commandID="org.eclipse.ui.file.save" date="Thu Jun 10 18:46:04 EDT 2021" starttimestamp="1623364423520" timestamp="741457" />
+  <Command __id="202" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:46:05 EDT 2021" starttimestamp="1623364423520" timestamp="741550" />
+  <Command __id="203" _type="EclipseCommand" commandID="" date="Thu Jun 10 18:46:05 EDT 2021" starttimestamp="1623364423520" timestamp="741657" />
+  <Command __id="2" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:33:55 EDT 2021" docASTNodeCount="92" docActiveCodeLength="748" docExpressionCount="68" docLength="1242" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="11667">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/table/Grader.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package mp.table;
+import grader.basics.execution.BasicProjectExecution;
+import gradingTools.comp301ss21.assignment1.SS21Assignment1Suite;
+import gradingTools.comp301ss21.assignment3.SS21Assignment3Suite;
+import trace.grader.basics.GraderBasicsTraceUtility;
+import util.trace.Tracer;
+public class Grader {
+		public static void main(String[] args) {
+			// if you set this to false, grader steps will not be traced
+			GraderBasicsTraceUtility.setTracerShowInfo(true);	
+			// if you set this to false, all grader steps will be traced,
+			// not just the ones that failed		
+			GraderBasicsTraceUtility.setBufferTracedMessages(false);
+			// Change this number if a test trace gets longer than 600 and is clipped
+			GraderBasicsTraceUtility.setMaxPrintedTraces(600);
+			// Change this number if all traces together are longer than 2000
+			GraderBasicsTraceUtility.setMaxTraces(2000);
+			// Change this number if your process times out prematurely
+			BasicProjectExecution.setProcessTimeOut(5);
+			// You need to always call such a method
+			SS21Assignment3Suite.setRunNewPaintListenerTest(true);
+			// Special call for those who implement the delegating painter
+			// You need to always call such a method
+			SS21Assignment3Suite.main(args);
+		}
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="29" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:35:14 EDT 2021" docASTNodeCount="339" docActiveCodeLength="2111" docExpressionCount="238" docLength="2111" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="90571">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/bridgeSceneFigures/ABridgeScene.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package mp.bridgeSceneFigures;
+import java.beans.PropertyChangeListener;
+
+import mp.bridgeSceneObject.AHead;
+import mp.bridgeSceneObject.APropertyListenerSupport;
+import mp.bridgeSceneObject.PropertyListenerSupport;
+import mp.table.ATable;
+import mp.table.Table;
+import tags301.Comp301Tags;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+import util.annotations.Visible;
+
+@Tags(Comp301Tags.TABLE) 
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({
+	"Arthur",
+	"Galahad",
+	"Guard",
+	"Lancelot",
+	"Robin",
+})
+public class ABridgeScene implements BridgeScene { 
+	
+	PropertyListenerSupport aListener = new APropertyListenerSupport(); 
+	
+	static final int X_POS_ONE=50, X_POS_TWO=50, X_POS_FOUR=150, X_POS_FIVE=150,
+			Y_POS_ONE=500, Y_POS_TWO=700;  
+	
+	protected Avatar arthur, galahad, guard, lancelot, robin; 
+	protected Table<Avatar> aTable = AFactory.avatarTableFactoryMethod();  
+	
+	public ABridgeScene() {
+		arthur = new Body(new AHead("images/arthur.jpg"), X_POS_ONE, Y_POS_ONE);
+		aTable.put("Arthur", arthur); 
+		galahad = new Body(new AHead("images/galahad.jpg"), X_POS_TWO, Y_POS_TWO);
+		aTable.put("Galahad", galahad);
+		guard = new Body(new AHead("images/guard.jpg"));
+		aTable.put("Guard", guard);
+		lancelot = new Body(new AHead("images/lancelot.jpg"), X_POS_FOUR, Y_POS_ONE);
+		aTable.put("Lancelot", lancelot);
+		robin = new Body(new AHead("images/robin.jpg"), X_POS_FIVE, Y_POS_TWO);
+		aTable.put("Robin", robin);
+	}
+	
+	public void reset() {
+		getArthur().setPosition(X_POS_ONE, Y_POS_ONE);
+		getGalahad().setPosition(X_POS_TWO, Y_POS_TWO);
+		getLancelot().setPosition(X_POS_FOUR, Y_POS_ONE);
+		getRobin().setPosition(X_POS_FIVE, Y_POS_TWO);
+	}
+	
+	
+	@Override
+	public Avatar getArthur() { return this.arthur; }
+	@Override
+	public Avatar getGalahad() { return this.galahad; }
+	@Override
+	public Avatar getGuard() { return this.guard; }
+	@Override
+	public Avatar getLancelot() { return this.lancelot; }
+	@Override
+	public Avatar getRobin() { return this.robin; }
+
+
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="38" _type="Replace" date="Thu Jun 10 18:36:09 EDT 2021" docASTNodeCount="343" docActiveCodeLength="2146" docExpressionCount="241" docLength="2146" endLine="36" insertionLength="37" int_docASTNodeCount="339" int_docActiveCodeLength="2109" int_docExpressionCount="238" int_docLength="2109" length="2" offset="1115" startLine="36" starttimestamp="1623364423520" timestamp="146182">
+    <deletedText><![CDATA[		]]></deletedText>
+    <insertedText><![CDATA[		AFactory.avatarTableFactoryMethod()]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="42" _type="Delete" date="Thu Jun 10 18:36:13 EDT 2021" docASTNodeCount="341" docActiveCodeLength="2140" docExpressionCount="240" docLength="2140" endLine="36" length="6" offset="1152" startLine="36" starttimestamp="1623364423520" timestamp="149980">
+    <text><![CDATA[aTable]]></text>
+  </DocumentChange>
+  <DocumentChange __id="46" _type="Replace" date="Thu Jun 10 18:36:15 EDT 2021" docASTNodeCount="345" docActiveCodeLength="2175" docExpressionCount="243" docLength="2175" endLine="38" insertionLength="37" int_docASTNodeCount="341" int_docActiveCodeLength="2138" int_docExpressionCount="240" int_docLength="2138" length="2" offset="1254" startLine="38" starttimestamp="1623364423520" timestamp="151915">
+    <deletedText><![CDATA[		]]></deletedText>
+    <insertedText><![CDATA[		AFactory.avatarTableFactoryMethod()]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="50" _type="Delete" date="Thu Jun 10 18:36:17 EDT 2021" docASTNodeCount="343" docActiveCodeLength="2169" docExpressionCount="242" docLength="2169" endLine="38" length="6" offset="1291" startLine="38" starttimestamp="1623364423520" timestamp="154285">
+    <text><![CDATA[aTable]]></text>
+  </DocumentChange>
+  <DocumentChange __id="54" _type="Replace" date="Thu Jun 10 18:36:21 EDT 2021" docASTNodeCount="347" docActiveCodeLength="2204" docExpressionCount="245" docLength="2204" endLine="40" insertionLength="37" int_docASTNodeCount="343" int_docActiveCodeLength="2167" int_docExpressionCount="242" int_docLength="2167" length="2" offset="1368" startLine="40" starttimestamp="1623364423520" timestamp="157901">
+    <deletedText><![CDATA[		]]></deletedText>
+    <insertedText><![CDATA[		AFactory.avatarTableFactoryMethod()]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="58" _type="Delete" date="Thu Jun 10 18:36:24 EDT 2021" docASTNodeCount="346" docActiveCodeLength="2197" docExpressionCount="244" docLength="2197" endLine="40" length="7" offset="1405" startLine="40" starttimestamp="1623364423520" timestamp="160918">
+    <text><![CDATA[aTable.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="60" _type="Insert" date="Thu Jun 10 18:36:24 EDT 2021" docASTNodeCount="345" docActiveCodeLength="2198" docExpressionCount="244" docLength="2198" length="1" offset="1405" starttimestamp="1623364423520" timestamp="161161">
+    <text><![CDATA[.]]></text>
+  </DocumentChange>
+  <DocumentChange __id="68" _type="Replace" date="Thu Jun 10 18:36:29 EDT 2021" docASTNodeCount="347" docActiveCodeLength="2227" docExpressionCount="246" docLength="2227" endLine="42" insertionLength="37" int_docASTNodeCount="344" int_docActiveCodeLength="2190" int_docExpressionCount="243" int_docLength="2190" length="8" offset="1507" startLine="42" starttimestamp="1623364423520" timestamp="166425">
+    <deletedText><![CDATA[		aTable]]></deletedText>
+    <insertedText><![CDATA[		AFactory.avatarTableFactoryMethod()]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="72" _type="Replace" date="Thu Jun 10 18:36:33 EDT 2021" docASTNodeCount="349" docActiveCodeLength="2256" docExpressionCount="248" docLength="2256" endLine="44" insertionLength="37" int_docASTNodeCount="346" int_docActiveCodeLength="2219" int_docExpressionCount="245" int_docLength="2219" length="8" offset="1646" startLine="44" starttimestamp="1623364423520" timestamp="169724">
+    <deletedText><![CDATA[		aTable]]></deletedText>
+    <insertedText><![CDATA[		AFactory.avatarTableFactoryMethod()]]></insertedText>
+  </DocumentChange>
+  <DocumentChange __id="76" _type="Delete" date="Thu Jun 10 18:36:36 EDT 2021" docASTNodeCount="337" docActiveCodeLength="2183" docExpressionCount="242" docLength="2183" endLine="33" length="73" offset="941" startLine="32" starttimestamp="1623364423520" timestamp="173000">
+    <text><![CDATA[protected Table<Avatar> aTable = AFactory.avatarTableFactoryMethod();  
+	]]></text>
+  </DocumentChange>
+  <Command __id="85" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:36:48 EDT 2021" docASTNodeCount="92" docActiveCodeLength="748" docExpressionCount="68" docLength="1242" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="184581">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/table/Grader.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package mp.table;¶import grader.basics.execution.BasicProjectExecution;¶import gradingTools.comp301ss21.assignment1.SS21Assignment1Suite;¶import gradingTools.comp301ss21.assignment3.SS21Assignment3Suite;¶import trace.grader.basics.GraderBasicsTraceUtility;¶import util.trace.Tracer;¶public class Grader {¶		public static void main(String[] args) {¶			// if you set this to false, grader steps will not be traced¶			GraderBasicsTraceUtility.setTracerShowInfo(true);	¶			// if you set this to false, all grader steps will be traced,¶			// not just the ones that failed		¶			GraderBasicsTraceUtility.setBufferTracedMessages(false);¶			// Change this number if a test trace gets longer than 600 and is clipped¶			GraderBasicsTraceUtility.setMaxPrintedTraces(600);¶			// Change this number if all traces together are longer than 2000¶			GraderBasicsTraceUtility.setMaxTraces(2000);¶			// Change this number if your process times out prematurely¶			BasicProjectExecution.setProcessTimeOut(5);¶			// You need to always call such a method¶			SS21Assignment3Suite.setRunNewPaintListenerTest(true);¶			// Special call for those who implement the delegating painter¶			// You need to always call such a method¶			SS21Assignment3Suite.main(args);¶		}¶¶}¶")]]]></diff>
+  </Command>
+  <Command __id="118" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:40:20 EDT 2021" docASTNodeCount="204" docActiveCodeLength="1016" docExpressionCount="130" docLength="1016" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="396623">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/table/ATable.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package mp.table;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import tags301.Comp301Tags;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+
+@StructurePattern(StructurePatternNames.MAP_PATTERN)
+@Tags(Comp301Tags.TABLE)
+public class ATable<T> implements Table {
+	
+	List<T> tableOfObjects;
+	List<String> tableOfKeys;
+	
+	public ATable() {
+		tableOfObjects = new ArrayList<T>(); 
+		tableOfKeys = new ArrayList<String>(); 
+	}
+
+	@Override
+	public T get(String key) {
+		return tableOfObjects.get(tableOfKeys.indexOf(key)); 
+	}
+
+	@Override
+	public void put(String key, Object val) {
+		
+		if (key == null || val == null) {
+			
+		}
+		
+		else if (tableOfKeys.contains(key)) {
+			newPairing(key, (T) val); 
+		}
+		else {
+			newKey(key, (T) val); 
+		}
+		
+	}
+	
+	void newPairing(String key, T val) {
+		tableOfObjects.set(tableOfKeys.indexOf(key), val); 
+	}
+	
+	void newKey(String key, T val) {
+		tableOfObjects.add(val);
+		tableOfKeys.add(key);
+	}
+
+	
+
+}
+]]></snapshot>
+  </Command>
+  <Command __id="121" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:40:25 EDT 2021" docASTNodeCount="61" docActiveCodeLength="326" docExpressionCount="42" docLength="326" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="401641">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/table/Table.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package mp.table;
+
+import tags301.Comp301Tags;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+
+@Tags(Comp301Tags.TABLE)
+@StructurePattern(StructurePatternNames.MAP_PATTERN)
+public interface Table<T> {
+
+	T get(String key);
+	void put(String key, T val);
+}
+]]></snapshot>
+  </Command>
+  <Command __id="124" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:40:38 EDT 2021" docASTNodeCount="226" docActiveCodeLength="1560" docExpressionCount="115" docLength="1560" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="414584">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/bridgeSceneFigures/AFactory.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package mp.bridgeSceneFigures;
+
+import mp.table.ATable;
+import mp.table.Table;
+import tags301.Comp301Tags;
+import util.annotations.Tags;
+
+@Tags(Comp301Tags.FACTORY_CLASS)
+public class AFactory {
+	
+	static BetterBridgeScene scene; 
+	static ConsoleView view;
+	static ABridgeScenePainter aPainter; 
+	static MouseAndKeyListener aController; 
+	static Table<Avatar> aTable; 
+	static BridgeSceneView aView; 
+	
+	public static BetterBridgeScene bridgeSceneFactoryMethod() {
+		if (scene == null) {
+			scene = new ABetterBridgeScene();
+		}
+		return scene; 
+	}
+	
+	public static ConsoleView consoleSceneViewFactoryMethod() {
+		if (view == null) {
+			view = new AConsoleView(); 
+		}
+		return view; 
+	}
+
+	public static Angle legsFactoryMethod(double length, double leftAngle, double rightAngle) {
+		return new AngleShape(length, leftAngle, rightAngle); 
+	}
+	
+	public static BridgeScenePainter observableBridgeScenePainterFactoryMethod() {
+		if (aPainter == null) {
+			aPainter = new ABridgeScenePainter(); 
+		}
+		return aPainter; 
+	}
+	
+	public static BridgeSceneView delegatingBridgeSceneViewFactoryMethod() {
+		if (aView == null) {
+			aView = new ABridgeSceneView(); 
+		}
+		return aView; 
+	}
+	
+	public static MouseAndKeyListener bridgeSceneControllerFactoryMethod() {
+		if (aController == null) {
+			aController = new AMouseAndKeyController(AFactory.observableBridgeScenePainterFactoryMethod()); 
+		}
+		return aController; 
+	}
+	
+	public static Table<Avatar> avatarTableFactoryMethod() {
+		if (aTable == null) {
+			aTable = new ATable<Avatar>(); 
+		}
+		return aTable; 
+	}
+	
+}]]></snapshot>
+  </Command>
+  <Command __id="131" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:45:37 EDT 2021" docASTNodeCount="735" docActiveCodeLength="4128" docExpressionCount="508" docLength="4128" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="713878">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/bridgeSceneFigures/ABetterBridgeScene.java]]></filePath>
+    <diff><![CDATA[null]]></diff>
+    <snapshot><![CDATA[package mp.bridgeSceneFigures;
+
+import java.beans.PropertyChangeListener;
+
+import bus.uigen.OEFrame;
+import bus.uigen.ObjectEditor;
+import tags301.Comp301Tags;
+import util.annotations.PropertyNames;
+import util.annotations.Tags;
+import util.annotations.Visible;
+@Tags(Comp301Tags.BRIDGE_SCENE)
+@PropertyNames({
+	"Gorge",
+	"KnightArea",
+	"GuardArea", 
+	"Occupied", 
+	"KnightTurn",
+	"InteractingKnight",
+	"Arthur",
+	"Galahad",
+	"Guard",
+	"Lancelot",
+	"Robin",
+})
+public class ABetterBridgeScene extends ABridgeScene implements BetterBridgeScene {
+	
+	static final int X_KNIGHT=600, Y_KNIGHT=600, X_GUARD=800, Y_GUARD=600;
+	static final int X_FAILED=450, Y_FAILED=-200, X_PASSED=500; 
+	static final int Y_MOVEMENT =4; 
+	static final Boolean FALSE= false; 
+	
+	protected int failedX=X_FAILED, failedY=Y_FAILED; 
+	protected Gorge aGorge; 
+	protected Area aKnightArea, aGuardArea;
+	protected Boolean occupied=FALSE, knightTurn=FALSE;
+	protected Avatar activeKnight=null; 
+
+	public ABetterBridgeScene() {
+		aGorge = new AGorge(); 
+		aKnightArea = new AnArea(X_KNIGHT, Y_KNIGHT); 
+		aGuardArea = new AnArea(X_GUARD, Y_GUARD);
+		readyGuard(); 
+	}
+	
+	void readyGuard() { 
+		this.getGuard().setPosition(xGuard(), yGuard());
+	}
+	@Override
+	public void approach(Avatar aKnight) {
+		if (!(getOccupied())) {
+			this.activeKnight = aKnight;
+			this.activeKnight.setPosition(xKnight(), yKnight()); 
+			this.occupied = true; 
+		}
+	}
+	
+	@Override 
+	public void approach(String aKnightName) {
+		approach(AFactory.avatarTableFactoryMethod().get(aKnightName)); 
+	}
+	
+	@Override
+	public void say(String text) {
+		if (getOccupied() && !(getKnightTurn())) {
+			this.getInteractingKnight().setChatBoxText("");
+			this.getGuard().setChatBoxText(text);
+			knightTurn = true; 
+		}
+		else if (getOccupied() && (getKnightTurn())) {
+			this.getGuard().setChatBoxText("");
+			this.getInteractingKnight().setChatBoxText(text);
+			knightTurn = false; 
+		}
+	};
+
+	@Override 
+	public void move(int x, int y) {
+		scroll(x, y); 
+	}
+	
+	
+	private int xGuard() { return X_GUARD + (aGuardArea.getWidth() / 2); }
+	private int yGuard() { return Y_GUARD + (aGuardArea.getHeight() / Y_MOVEMENT); }
+	private int xKnight() { return X_KNIGHT + (aKnightArea.getWidth() / 2); }
+	private int yKnight() { return Y_KNIGHT + (aKnightArea.getHeight() / Y_MOVEMENT); }
+	
+	private void turnReset() {
+		this.activeKnight = null;
+		this.occupied = false; 
+		this.knightTurn = false; 
+	}
+	@Override
+	public Gorge getGorge() { return this.aGorge; }
+	@Override
+	public Area getKnightArea() { return this.aKnightArea; }
+	@Override
+	public Area getGuardArea() { return this.aGuardArea; }
+	@Override
+	public Boolean getOccupied() {return this.occupied; }
+	@Override
+	public Boolean getKnightTurn() {return this.knightTurn;}
+	@Override@Visible(false)
+	public Avatar getInteractingKnight() { return activeKnight; }
+	@Override
+	public void passed() {
+		if (getOccupied() && (!getKnightTurn())) {
+			this.getInteractingKnight().move(X_PASSED, 0);
+			turnReset();  
+		}
+	} 
+	@Override
+	public void failed() {
+		if (getOccupied() && (!getKnightTurn())) {
+			this.getInteractingKnight().setChatBoxText("");
+			this.getInteractingKnight().move(failedX, failedY);
+			this.failedX += 30; 
+			turnReset(); 
+		}
+		else if (getOccupied() && (getKnightTurn())) {
+			this.getGuard().setChatBoxText("");
+			this.getGuard().move(-Y_FAILED, Y_FAILED);
+		}
+	}
+	@Override
+	public void scroll(int x, int y) {
+		getArthur().move(-x, -y);
+		getGalahad().move(-x, -y);
+		getGuard().move(-x, -y);
+		getLancelot().move(-x, -y);
+		getRobin().move(-x, -y);
+		getGorge().move(-x, -y);
+		getKnightArea().move(-x, -y);
+		getGuardArea().move(-x,-y); 
+		
+	}
+	@Override
+	public void registerListener(PropertyChangeListener aListener) {
+		this.getArthur().registerListener(aListener);
+		this.getGalahad().registerListener(aListener);
+		this.getGuard().registerListener(aListener);
+		this.getLancelot().registerListener(aListener);
+		this.getRobin().registerListener(aListener);
+		this.getKnightArea().registerListener(aListener);
+		this.getGuardArea().registerListener(aListener);
+		this.getGorge().registerListener(aListener);
+	}
+}
+]]></snapshot>
+  </Command>
+  <Command __id="134" _type="DiffBasedFileOpenCommand" date="Thu Jun 10 18:45:42 EDT 2021" docASTNodeCount="337" docActiveCodeLength="2183" docExpressionCount="242" docLength="2183" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="718996">
+    <filePath><![CDATA[/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/bridgeSceneFigures/ABridgeScene.java]]></filePath>
+    <diff><![CDATA[[Diff(EQUAL,"package mp.bridgeSceneFigures;¶import java.beans.PropertyChangeListener;¶¶import mp.bridgeSceneObject.AHead;¶import mp.bridgeSceneObject.APropertyListenerSupport;¶import mp.bridgeSceneObject.PropertyListenerSupport;¶import mp.table.ATable;¶import mp.table.Table;¶import tags301.Comp301Tags;¶import util.annotations.PropertyNames;¶import util.annotations.StructurePattern;¶import util.annotations.StructurePatternNames;¶import util.annotations.Tags;¶import util.annotations.Visible;¶¶@Tags(Comp301Tags.TABLE) ¶@StructurePattern(StructurePatternNames.BEAN_PATTERN)¶@PropertyNames({¶	"Arthur",¶	"Galahad",¶	"Guard",¶	"Lancelot",¶	"Robin",¶})¶public class ABridgeScene implements BridgeScene { ¶	¶	PropertyListenerSupport aListener = new APropertyListenerSupport(); ¶	¶	static final int X_POS_ONE=50, X_POS_TWO=50, X_POS_FOUR=150, X_POS_FIVE=150,¶			Y_POS_ONE=500, Y_POS_TWO=700;  ¶	¶	protected Avatar arthur, galahad, guard, lancelot, robin; ¶	"), Diff(DELETE,"protected Table<Avatar> aTable = AFactory.avatarTableFactoryMethod();  ¶	"), Diff(EQUAL,"¶	public ABridgeScene() {¶		arthur = new Body(new AHead("images/arthur.jpg"), X_POS_ONE, Y_POS_ONE);¶		"), Diff(DELETE,"aTable"), Diff(INSERT,"AFactory.avatarTableFactoryMethod()"), Diff(EQUAL,".put("Arthur", arthur); ¶		galahad = new Body(new AHead("images/galahad.jpg"), X_POS_TWO, Y_POS_TWO);¶		"), Diff(DELETE,"aTable"), Diff(INSERT,"AFactory.avatarTableFactoryMethod()"), Diff(EQUAL,".put("Galahad", galahad);¶		guard = new Body(new AHead("images/guard.jpg"));¶		"), Diff(DELETE,"aTable"), Diff(INSERT,"AFactory.avatarTableFactoryMethod()"), Diff(EQUAL,".put("Guard", guard);¶		lancelot = new Body(new AHead("images/lancelot.jpg"), X_POS_FOUR, Y_POS_ONE);¶		"), Diff(DELETE,"aTable"), Diff(INSERT,"AFactory.avatarTableFactoryMethod()"), Diff(EQUAL,".put("Lancelot", lancelot);¶		robin = new Body(new AHead("images/robin.jpg"), X_POS_FIVE, Y_POS_TWO);¶		"), Diff(DELETE,"aTable"), Diff(INSERT,"AFactory.avatarTableFactoryMethod()"), Diff(EQUAL,".put("Robin", robin);¶	}¶	¶	public void reset() {¶		getArthur().setPosition(X_POS_ONE, Y_POS_ONE);¶		getGalahad().setPosition(X_POS_TWO, Y_POS_TWO);¶		getLancelot().setPosition(X_POS_FOUR, Y_POS_ONE);¶		getRobin().setPosition(X_POS_FIVE, Y_POS_TWO);¶	}¶	¶	¶	@Override¶	public Avatar getArthur() { return this.arthur; }¶	@Override¶	public Avatar getGalahad() { return this.galahad; }¶	@Override¶	public Avatar getGuard() { return this.guard; }¶	@Override¶	public Avatar getLancelot() { return this.lancelot; }¶	@Override¶	public Avatar getRobin() { return this.robin; }¶¶¶}¶")]]]></diff>
+    <snapshot><![CDATA[package mp.bridgeSceneFigures;
+import java.beans.PropertyChangeListener;
+
+import mp.bridgeSceneObject.AHead;
+import mp.bridgeSceneObject.APropertyListenerSupport;
+import mp.bridgeSceneObject.PropertyListenerSupport;
+import mp.table.ATable;
+import mp.table.Table;
+import tags301.Comp301Tags;
+import util.annotations.PropertyNames;
+import util.annotations.StructurePattern;
+import util.annotations.StructurePatternNames;
+import util.annotations.Tags;
+import util.annotations.Visible;
+
+@Tags(Comp301Tags.TABLE) 
+@StructurePattern(StructurePatternNames.BEAN_PATTERN)
+@PropertyNames({
+	"Arthur",
+	"Galahad",
+	"Guard",
+	"Lancelot",
+	"Robin",
+})
+public class ABridgeScene implements BridgeScene { 
+	
+	PropertyListenerSupport aListener = new APropertyListenerSupport(); 
+	
+	static final int X_POS_ONE=50, X_POS_TWO=50, X_POS_FOUR=150, X_POS_FIVE=150,
+			Y_POS_ONE=500, Y_POS_TWO=700;  
+	
+	protected Avatar arthur, galahad, guard, lancelot, robin; 
+	
+	public ABridgeScene() {
+		arthur = new Body(new AHead("images/arthur.jpg"), X_POS_ONE, Y_POS_ONE);
+		AFactory.avatarTableFactoryMethod().put("Arthur", arthur); 
+		galahad = new Body(new AHead("images/galahad.jpg"), X_POS_TWO, Y_POS_TWO);
+		AFactory.avatarTableFactoryMethod().put("Galahad", galahad);
+		guard = new Body(new AHead("images/guard.jpg"));
+		AFactory.avatarTableFactoryMethod().put("Guard", guard);
+		lancelot = new Body(new AHead("images/lancelot.jpg"), X_POS_FOUR, Y_POS_ONE);
+		AFactory.avatarTableFactoryMethod().put("Lancelot", lancelot);
+		robin = new Body(new AHead("images/robin.jpg"), X_POS_FIVE, Y_POS_TWO);
+		AFactory.avatarTableFactoryMethod().put("Robin", robin);
+	}
+	
+	public void reset() {
+		getArthur().setPosition(X_POS_ONE, Y_POS_ONE);
+		getGalahad().setPosition(X_POS_TWO, Y_POS_TWO);
+		getLancelot().setPosition(X_POS_FOUR, Y_POS_ONE);
+		getRobin().setPosition(X_POS_FIVE, Y_POS_TWO);
+	}
+	
+	
+	@Override
+	public Avatar getArthur() { return this.arthur; }
+	@Override
+	public Avatar getGalahad() { return this.galahad; }
+	@Override
+	public Avatar getGuard() { return this.guard; }
+	@Override
+	public Avatar getLancelot() { return this.lancelot; }
+	@Override
+	public Avatar getRobin() { return this.robin; }
+
+
+}
+]]></snapshot>
+  </Command>
+  <DocumentChange __id="141" _type="Delete" date="Thu Jun 10 18:45:52 EDT 2021" docASTNodeCount="334" docActiveCodeLength="2178" docExpressionCount="239" docLength="2178" endLine="15" length="5" offset="501" repeat="5" startLine="15" starttimestamp="1623364423520" timestamp="728911" timestamp2="729586">
+    <text><![CDATA[TABLE]]></text>
+  </DocumentChange>
+  <DocumentChange __id="152" _type="Insert" date="Thu Jun 10 18:45:53 EDT 2021" docASTNodeCount="337" docActiveCodeLength="2179" docExpressionCount="242" docLength="2179" length="1" offset="501" starttimestamp="1623364423520" timestamp="730014">
+    <text><![CDATA[A]]></text>
+  </DocumentChange>
+  <DocumentChange __id="154" _type="Insert" date="Thu Jun 10 18:45:56 EDT 2021" docASTNodeCount="337" docActiveCodeLength="2187" docExpressionCount="242" docLength="2187" length="8" offset="502" repeat="8" starttimestamp="1623364423520" timestamp="733083" timestamp2="733991">
+    <text><![CDATA[_BRIDGE ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="171" _type="Delete" date="Thu Jun 10 18:45:57 EDT 2021" docASTNodeCount="335" docActiveCodeLength="2177" docExpressionCount="240" docLength="2177" endLine="15" length="10" offset="500" repeat="10" startLine="15" starttimestamp="1623364423520" timestamp="734136" timestamp2="735704">
+    <text><![CDATA[.A_BRIDGE ]]></text>
+  </DocumentChange>
+  <DocumentChange __id="191" _type="Insert" date="Thu Jun 10 18:45:59 EDT 2021" docASTNodeCount="337" docActiveCodeLength="2180" docExpressionCount="242" docLength="2180" length="3" offset="500" repeat="3" starttimestamp="1623364423520" timestamp="736210" timestamp2="736903">
+    <text><![CDATA[.br]]></text>
+  </DocumentChange>
+  <DocumentChange __id="198" _type="Replace" date="Thu Jun 10 18:46:03 EDT 2021" docASTNodeCount="337" docActiveCodeLength="2190" docExpressionCount="242" docLength="2190" endLine="15" insertionLength="12" int_docASTNodeCount="334" int_docActiveCodeLength="2178" int_docExpressionCount="239" int_docLength="2178" length="2" offset="501" startLine="15" starttimestamp="1623364423520" timestamp="740271">
+    <deletedText><![CDATA[br]]></deletedText>
+    <insertedText><![CDATA[BRIDGE_SCENE]]></insertedText>
+  </DocumentChange>
+  <Command __id="205" _type="PauseCommand" date="Thu Jun 10 18:46:06 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="743025">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1368]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="208" _type="PauseCommand" date="Thu Jun 10 18:46:10 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="746945">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[3717]]></pause>
+    <nextType><![CDATA[Debug]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="207" _type="RunCommand" date="Thu Jun 10 18:46:10 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="746945" type="Run" />
+  <Command __id="210" _type="PauseCommand" date="Thu Jun 10 18:46:11 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="748247">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1302]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="209" _type="ShellCommand" date="Thu Jun 10 18:46:11 EDT 2021" starttimestamp="1623364423520" timestamp="748247" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="212" _type="PauseCommand" date="Thu Jun 10 18:46:18 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="754906">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6659]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="211" _type="ConsoleOutput" date="Thu Jun 10 18:46:18 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="754906" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu Jun 10 18:46:18 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"Building symbol table and running first pass checks:Thu Jun 10 18:46:18 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="214" _type="PauseCommand" date="Thu Jun 10 18:46:21 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="758148">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3242]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="213" _type="ConsoleOutput" date="Thu Jun 10 18:46:21 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="758148" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:99
+Running second pass checks Thu Jun 10 18:46:21 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu Jun 10 18:46:21 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:99¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Thu Jun 10 18:46:21 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Thu Jun 10 18:46:"), Diff(INSERT,"2"), Diff(EQUAL,"1"), Diff(DELETE,"8"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="215" _type="ConsoleOutput" date="Thu Jun 10 18:46:21 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="758236" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu Jun 10 18:46:21 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:99¶Running second pass checks Thu Jun 10 18:46:21 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu Jun 10 18:46:21 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="217" _type="PauseCommand" date="Thu Jun 10 18:46:23 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="760080">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[1844]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="216" _type="ConsoleOutput" date="Thu Jun 10 18:46:23 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="760080" type="ConsoleOutput">
+    <outputString><![CDATA[Illegal signature,, missing :
+ Assuming parameters and return types do not matter
+Finished second pass checks:Thu Jun 10 18:46:23 EDT 2021
+Generating checks:Thu Jun 10 18:46:23 EDT 2021
+Finished Generating checks:Thu Jun 10 18:46:23 EDT 2021
+Generating externals:Thu Jun 10 18:46:23 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) in"), Diff(INSERT,"Illegal signature,, missing :¶ Assuming parame"), Diff(EQUAL,"ter"), Diff(DELETE,"-"), Diff(INSERT,"s"), Diff(EQUAL," and "), Diff(DELETE,"intra class method cal"), Diff(INSERT,"return types do not matter¶Finished second pass checks:Thu Jun 10 18:46:23 EDT 2021¶Generating checks:Thu Jun 10 18:46:23 EDT 2021¶Finished Generating checks:Thu Jun 10 18:46:23 EDT 2021¶Generating externa"), Diff(EQUAL,"ls:Thu Jun 10 18:46:2"), Diff(DELETE,"1"), Diff(INSERT,"3"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="218" _type="ConsoleOutput" date="Thu Jun 10 18:46:23 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="760293" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Thu Jun 10 18:46:23 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Illegal signature,, missing :¶ Assuming parameters and return types do not matter¶Finished second pass checks:Thu Jun 10 18:46:23 EDT 2021¶Generating checks:Thu Jun 10 18:46:23 EDT 2021¶Finished Generating checks:Thu Jun 10 18:46:23 EDT 2021¶"), Diff(INSERT,"Finished "), Diff(EQUAL,"Generating externals:Thu Jun 10 18:46:23 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="219" _type="ConsoleOutput" date="Thu Jun 10 18:46:24 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="760741" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Thu Jun 10 18:46:23 EDT 2021"), Diff(INSERT,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="220" _type="ConsoleOutput" date="Thu Jun 10 18:46:24 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="760833" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="221" _type="ConsoleOutput" date="Thu Jun 10 18:46:24 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="760915" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"Added One¶"), Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="223" _type="PauseCommand" date="Thu Jun 10 18:46:32 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="768927">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8012]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="222" _type="ConsoleOutput" date="Thu Jun 10 18:46:32 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="768927" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+PaintedPainted
+PaintedPainted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶PaintedPainted¶PaintedPainted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="225" _type="PauseCommand" date="Thu Jun 10 18:48:09 EDT 2021" range="1m-2m" starttimestamp="1623364423520" timestamp="865534">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[96607]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="224" _type="ShellCommand" date="Thu Jun 10 18:48:09 EDT 2021" starttimestamp="1623364423520" timestamp="865534" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="227" _type="PauseCommand" date="Thu Jun 10 18:48:10 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="866857">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1323]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="226" _type="ShellCommand" date="Thu Jun 10 18:48:10 EDT 2021" starttimestamp="1623364423520" timestamp="866857" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="229" _type="PauseCommand" date="Thu Jun 10 18:48:13 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="870104">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[3247]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="228" _type="ConsoleOutput" date="Thu Jun 10 18:48:13 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="870104" type="ConsoleOutput">
+    <outputString><![CDATA[LocatablePropertyChangeListenersProperty did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneObject/ALocatable.java:1: Missing getter for property PropertyChangeListeners of type List in parent type @Comp301Tags.LOCATABLE [ExpectedGetters]%0.0
+
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶PaintedPainted¶PaintedPainted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted¶Painted"), Diff(INSERT,"LocatablePropertyChangeListenersProperty did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneObject/ALocatable.java:1: Missing getter for property PropertyChangeListeners of type List in parent type @Comp301Tags.LOCATABLE [ExpectedGetters]%0.0¶"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="231" _type="PauseCommand" date="Thu Jun 10 18:48:26 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="883413">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[13309]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="230" _type="ConsoleOutput" date="Thu Jun 10 18:48:26 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="883413" type="ConsoleOutput">
+    <outputString><![CDATA[MouseEvent
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"LocatablePropertyChangeListenersProperty did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneObject/ALocatable.java:1: Missing getter for property PropertyChangeListeners of type List in parent type @Comp301Tags.LOCATABLE [ExpectedGetters]%0.0¶"), Diff(INSERT,"MouseEvent¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="232" _type="ConsoleOutput" date="Thu Jun 10 18:48:27 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="883519" type="ConsoleOutput">
+    <outputString><![CDATA[MouseEvent
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"MouseEvent¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶")]]]></diff>
+  </Command>
+  <Command __id="234" _type="PauseCommand" date="Thu Jun 10 18:48:36 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="892979">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[9460]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="233" _type="ConsoleOutput" date="Thu Jun 10 18:48:36 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="892979" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"MouseEvent¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶")]]]></diff>
+  </Command>
+  <Command __id="238" _type="PauseCommand" date="Thu Jun 10 18:49:17 EDT 2021" range="30s-1m" starttimestamp="1623364423520" timestamp="933540">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[32912]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="237" _type="RunCommand" date="Thu Jun 10 18:49:17 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="933540" type="Run" />
+  <Command __id="239" _type="RunCommand" date="Thu Jun 10 18:49:17 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="933542" type="Run" />
+  <Command __id="240" _type="ShellCommand" date="Thu Jun 10 18:49:17 EDT 2021" starttimestamp="1623364423520" timestamp="933587" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="241" _type="ShellCommand" date="Thu Jun 10 18:49:17 EDT 2021" starttimestamp="1623364423520" timestamp="934132" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="266" _type="PauseCommand" date="Thu Jun 10 19:11:23 EDT 2021" range="10m-20m" starttimestamp="1623364423520" timestamp="2260007">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[698639]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="265" _type="ShellCommand" date="Thu Jun 10 19:11:23 EDT 2021" starttimestamp="1623364423520" timestamp="2260006" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="268" _type="PauseCommand" date="Thu Jun 10 19:11:35 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="2272031">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[12025]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="269" _type="MoveCaretCommand" caretOffset="394" date="Thu Jun 10 19:11:35 EDT 2021" docOffset="556" starttimestamp="1623364423520" timestamp="2272326" />
+  <Command __id="271" _type="PauseCommand" date="Thu Jun 10 19:11:44 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="2280859">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[8533]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="270" _type="ShellCommand" date="Thu Jun 10 19:11:44 EDT 2021" starttimestamp="1623364423520" timestamp="2280859" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="273" _type="PauseCommand" date="Thu Jun 10 19:12:18 EDT 2021" range="30s-1m" starttimestamp="1623364423520" timestamp="2315257">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[34398]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="272" _type="ShellCommand" date="Thu Jun 10 19:12:18 EDT 2021" starttimestamp="1623364423520" timestamp="2315257" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="275" _type="PauseCommand" date="Thu Jun 10 19:12:20 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="2317159">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1902]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="274" _type="ShellCommand" date="Thu Jun 10 19:12:20 EDT 2021" starttimestamp="1623364423520" timestamp="2317159" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="277" _type="PauseCommand" date="Thu Jun 10 19:12:55 EDT 2021" range="30s-1m" starttimestamp="1623364423520" timestamp="2351971">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[34812]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="276" _type="ShellCommand" date="Thu Jun 10 19:12:55 EDT 2021" starttimestamp="1623364423520" timestamp="2351971" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="282" _type="PauseCommand" date="Thu Jun 10 19:13:00 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="2357083">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1540]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[RunCommand]]></next>
+  </Command>
+  <Command __id="281" _type="RunCommand" date="Thu Jun 10 19:13:00 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="2357083" type="Run" />
+  <Command __id="283" _type="RunCommand" date="Thu Jun 10 19:13:00 EDT 2021" kind="HitBreakPoint" projectName="AssignmentThree" starttimestamp="1623364423520" timestamp="2357083" type="Run" />
+  <Command __id="285" _type="PauseCommand" date="Thu Jun 10 19:13:02 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="2358523">
+    <prevType><![CDATA[Debug]]></prevType>
+    <prev><![CDATA[RunCommand]]></prev>
+    <pause><![CDATA[1440]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="284" _type="ShellCommand" date="Thu Jun 10 19:13:02 EDT 2021" starttimestamp="1623364423520" timestamp="2358523" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="287" _type="PauseCommand" date="Thu Jun 10 19:13:08 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="2364916">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[6393]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="286" _type="ConsoleOutput" date="Thu Jun 10 19:13:08 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2364916" type="ConsoleOutput">
+    <outputString><![CDATA[Building symbol table and running first pass checks:Thu Jun 10 19:13:08 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"ConsoleSceneViewRegistersWithLocatables did not pass completely:[WARN] /Users/sethwiggins/eclipse-workspace/AssignmentThree/./src/mp/bridgeSceneFigures/AConsoleView.java:1: No method in class mp.bridgeSceneFigures.AConsoleView:[@Comp301Tags.CONSOLE_SCENE_VIEW] has not made expected call (.*)!addPropertyChangeListener:PropertyChangeListener->void. [MissingMethodCall]%0.0¶"), Diff(INSERT,"Building symbol table and running first pass checks:Thu Jun 10 19:13:08 EDT 2021"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="289" _type="PauseCommand" date="Thu Jun 10 19:13:11 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="2367937">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[3021]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="288" _type="ConsoleOutput" date="Thu Jun 10 19:13:11 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2367937" type="ConsoleOutput">
+    <outputString><![CDATA[Symbol table size:99
+Running second pass checks Thu Jun 10 19:13:11 EDT 2021
+Start O(n2) inter- and intra class method calls:Thu Jun 10 19:13:11 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Building s"), Diff(INSERT,"S"), Diff(EQUAL,"ymbol table "), Diff(DELETE,"and r"), Diff(INSERT,"size:99¶R"), Diff(EQUAL,"unning "), Diff(DELETE,"first"), Diff(INSERT,"second"), Diff(EQUAL," pass checks"), Diff(INSERT," Thu Jun 10 19:13:11 EDT 2021¶Start O(n2) inter- and intra class method calls"), Diff(EQUAL,":Thu Jun 10 19:13:"), Diff(DELETE,"08"), Diff(INSERT,"11"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="290" _type="ConsoleOutput" date="Thu Jun 10 19:13:11 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2368190" type="ConsoleOutput">
+    <outputString><![CDATA[End O(n2) inter- and intra class method calls:Thu Jun 10 19:13:11 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Symbol table size:99¶Running second pass checks Thu Jun 10 19:13:11 EDT 2021¶Start"), Diff(INSERT,"End"), Diff(EQUAL," O(n2) inter- and intra class method calls:Thu Jun 10 19:13:11 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="292" _type="PauseCommand" date="Thu Jun 10 19:13:14 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="2370585">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[2395]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="291" _type="ConsoleOutput" date="Thu Jun 10 19:13:14 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2370585" type="ConsoleOutput">
+    <outputString><![CDATA[Illegal signature,, missing :
+ Assuming parameters and return types do not matter
+Finished second pass checks:Thu Jun 10 19:13:14 EDT 2021
+Generating checks:Thu Jun 10 19:13:14 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"End O(n2) in"), Diff(INSERT,"Illegal signature,, missing :¶ Assuming parame"), Diff(EQUAL,"ter"), Diff(DELETE,"-"), Diff(INSERT,"s"), Diff(EQUAL," and "), Diff(DELETE,"intra class method call"), Diff(INSERT,"return types do not matter¶Finished second pass checks:Thu Jun 10 19:13:14 EDT 2021¶Generating check"), Diff(EQUAL,"s:Thu Jun 10 19:13:1"), Diff(DELETE,"1"), Diff(INSERT,"4"), Diff(EQUAL," EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="293" _type="ConsoleOutput" date="Thu Jun 10 19:13:14 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2370689" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating checks:Thu Jun 10 19:13:14 EDT 2021
+Generating externals:Thu Jun 10 19:13:14 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Illegal signature,, missing :¶ Assuming parameters and return types do not matter¶Finished second pass"), Diff(INSERT,"Finished Generating"), Diff(EQUAL," checks:Thu Jun 10 19:13:14 EDT 2021¶Generating "), Diff(DELETE,"check"), Diff(INSERT,"external"), Diff(EQUAL,"s:Thu Jun 10 19:13:14 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="294" _type="ConsoleOutput" date="Thu Jun 10 19:13:14 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2370895" type="ConsoleOutput">
+    <outputString><![CDATA[Finished Generating externals:Thu Jun 10 19:13:14 EDT 2021
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Finished "), Diff(DELETE,"Generating checks:Thu Jun 10 19:13:14 EDT 2021¶"), Diff(EQUAL,"Generating externals:Thu Jun 10 19:13:14 EDT 2021¶")]]]></diff>
+  </Command>
+  <Command __id="295" _type="ConsoleOutput" date="Thu Jun 10 19:13:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2371691" type="ConsoleOutput">
+    <outputString><![CDATA[Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+Added One
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Finished Generating externals:Thu Jun 10 19:13:14 EDT 2021"), Diff(INSERT,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="296" _type="ConsoleOutput" date="Thu Jun 10 19:13:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2371784" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One¶Added One"), Diff(INSERT,"Painted¶Painted¶Painted¶Painted¶Painted"), Diff(EQUAL,"¶")]]]></diff>
+  </Command>
+  <Command __id="297" _type="ConsoleOutput" date="Thu Jun 10 19:13:15 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2371861" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+Added One
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(EQUAL,"Painted¶Painted¶Painted¶Painted¶Painted¶"), Diff(INSERT,"Added One¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="299" _type="PauseCommand" date="Thu Jun 10 19:13:23 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="2379916">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[8055]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="298" _type="ConsoleOutput" date="Thu Jun 10 19:13:23 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2379916" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+RepaintedPainted
+Repainted
+Repainted
+Repainted
+Repainted
+Painted
+RepaintedRepainted
+Repainted
+Painted
+RepaintedRepainted
+Repainted
+Repainted
+Repainted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Painted¶Painted¶Painted¶Painted¶Painted¶Added One"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶RepaintedPainted¶Repainted¶Repainted¶Repainted¶Repainted¶Painted¶RepaintedRepainted¶Repainted¶Painted¶RepaintedRepainted¶Repainted¶Repainted¶Repainted¶Painted¶Painted"), Diff(EQUAL,"¶Painted¶Painted¶Painted¶Painted¶Painted¶")]]]></diff>
+  </Command>
+  <Command __id="301" _type="PauseCommand" date="Thu Jun 10 19:13:31 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="2387848">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[7932]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="300" _type="ConsoleOutput" date="Thu Jun 10 19:13:31 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2387848" type="ConsoleOutput">
+    <outputString><![CDATA[MouseEvent
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+]]></outputString>
+    <diff><![CDATA[[Diff(INSERT,"MouseEvent¶"), Diff(EQUAL,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶"), Diff(DELETE,"RepaintedPainted¶"), Diff(EQUAL,"Repainted¶Repainted¶Repainted¶Repainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(EQUAL,"ainted¶Repainted"), Diff(INSERT,"¶"), Diff(EQUAL,"Repainted¶Repainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶Repainted"), Diff(INSERT,"¶"), Diff(EQUAL,"Repainted¶Repainted¶Repainted¶Repainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"P"), Diff(INSERT,"Rep"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Painted¶P"), Diff(INSERT,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(EQUAL,"ainted¶")]]]></diff>
+  </Command>
+  <Command __id="302" _type="ConsoleOutput" date="Thu Jun 10 19:13:31 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2387906" type="ConsoleOutput">
+    <outputString><![CDATA[Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+Repainted
+MouseEvent
+Repainted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"MouseEvent¶"), Diff(EQUAL,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶"), Diff(INSERT,"MouseEvent¶"), Diff(EQUAL,"Repainted¶")]]]></diff>
+  </Command>
+  <Command __id="304" _type="PauseCommand" date="Thu Jun 10 19:13:36 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="2392608">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[4702]]></pause>
+    <nextType><![CDATA[IO]]></nextType>
+    <next><![CDATA[ConsoleOutput]]></next>
+  </Command>
+  <Command __id="303" _type="ConsoleOutput" date="Thu Jun 10 19:13:36 EDT 2021" overflow="false" starttimestamp="1623364423520" timestamp="2392608" type="ConsoleOutput">
+    <outputString><![CDATA[Painted
+Painted
+Painted
+Painted
+Painted
+]]></outputString>
+    <diff><![CDATA[[Diff(DELETE,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶"), Diff(DELETE,"Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶Repainted¶MouseEvent¶Rep"), Diff(INSERT,"P"), Diff(EQUAL,"ainted¶")]]]></diff>
+  </Command>
+  <Command __id="306" _type="PauseCommand" date="Thu Jun 10 19:13:41 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="2398422">
+    <prevType><![CDATA[IO]]></prevType>
+    <prev><![CDATA[ConsoleOutput]]></prev>
+    <pause><![CDATA[5814]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="305" _type="ShellCommand" date="Thu Jun 10 19:13:41 EDT 2021" starttimestamp="1623364423520" timestamp="2398422" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="308" _type="PauseCommand" date="Thu Jun 10 19:13:44 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="2401131">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2709]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="307" _type="ShellCommand" date="Thu Jun 10 19:13:44 EDT 2021" starttimestamp="1623364423520" timestamp="2401131" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="310" _type="PauseCommand" date="Thu Jun 10 19:14:07 EDT 2021" range="20s-30s" starttimestamp="1623364423520" timestamp="2424241">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[23110]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="309" _type="ShellCommand" date="Thu Jun 10 19:14:07 EDT 2021" starttimestamp="1623364423520" timestamp="2424241" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="312" _type="PauseCommand" date="Thu Jun 10 19:14:09 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="2426068">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1827]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="311" _type="ShellCommand" date="Thu Jun 10 19:14:09 EDT 2021" starttimestamp="1623364423520" timestamp="2426068" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="314" _type="PauseCommand" date="Thu Jun 10 19:15:07 EDT 2021" range="30s-1m" starttimestamp="1623364423520" timestamp="2483983">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[57915]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="313" _type="ShellCommand" date="Thu Jun 10 19:15:07 EDT 2021" starttimestamp="1623364423520" timestamp="2483983" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="316" _type="PauseCommand" date="Thu Jun 10 19:15:09 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="2485619">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1636]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="315" _type="ShellCommand" date="Thu Jun 10 19:15:09 EDT 2021" starttimestamp="1623364423520" timestamp="2485619" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="318" _type="PauseCommand" date="Thu Jun 10 19:17:06 EDT 2021" range="1m-2m" starttimestamp="1623364423520" timestamp="2602490">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[116871]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="317" _type="ShellCommand" date="Thu Jun 10 19:17:06 EDT 2021" starttimestamp="1623364423520" timestamp="2602490" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="320" _type="PauseCommand" date="Thu Jun 10 19:17:08 EDT 2021" range="2s-5s" starttimestamp="1623364423520" timestamp="2604843">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[2353]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="321" _type="MoveCaretCommand" caretOffset="394" date="Thu Jun 10 19:17:08 EDT 2021" docOffset="556" starttimestamp="1623364423520" timestamp="2605093" />
+  <Command __id="323" _type="PauseCommand" date="Thu Jun 10 19:17:14 EDT 2021" range="5s-10s" starttimestamp="1623364423520" timestamp="2611168">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[6075]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="324" _type="MoveCaretCommand" caretOffset="213" date="Thu Jun 10 19:17:14 EDT 2021" docOffset="344" starttimestamp="1623364423520" timestamp="2611422" />
+  <Command __id="326" _type="PauseCommand" date="Thu Jun 10 19:17:40 EDT 2021" range="20s-30s" starttimestamp="1623364423520" timestamp="2636865">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[25443]]></pause>
+    <nextType><![CDATA[Open File]]></nextType>
+    <next><![CDATA[DiffBasedFileOpenCommand]]></next>
+  </Command>
+  <Command __id="327" _type="MoveCaretCommand" caretOffset="394" date="Thu Jun 10 19:17:40 EDT 2021" docOffset="556" starttimestamp="1623364423520" timestamp="2637066" />
+  <Command __id="329" _type="PauseCommand" date="Thu Jun 10 19:17:42 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="2638584">
+    <prevType><![CDATA[Move Caret]]></prevType>
+    <prev><![CDATA[MoveCaretCommand]]></prev>
+    <pause><![CDATA[1517]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="328" _type="ShellCommand" date="Thu Jun 10 19:17:42 EDT 2021" starttimestamp="1623364423520" timestamp="2638583" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="331" _type="PauseCommand" date="Thu Jun 10 19:33:22 EDT 2021" range="10m-20m" starttimestamp="1623364423520" timestamp="3578850">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[940266]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="330" _type="ShellCommand" date="Thu Jun 10 19:33:22 EDT 2021" starttimestamp="1623364423520" timestamp="3578849" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="333" _type="PauseCommand" date="Thu Jun 10 19:33:41 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="3598411">
+    <prevType><![CDATA[Gained Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[19562]]></pause>
+    <nextType><![CDATA[Lost Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="332" _type="ShellCommand" date="Thu Jun 10 19:33:41 EDT 2021" starttimestamp="1623364423520" timestamp="3598411" type="ECLIPSE_LOST_FOCUS" />
+  <Command __id="335" _type="PauseCommand" date="Thu Jun 10 19:33:43 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="3600268">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1857]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[BalloonCommand]]></next>
+  </Command>
+  <Command __id="334" _type="BalloonCommand" date="Thu Jun 10 19:33:43 EDT 2021" message="*******************************************
+Worked 19 minutes(fixed)/24 minutes(context based) from
+Thu Jun 10 18:33:44 EDT 2021 to Thu Jun 10 19:33:41 EDT 2021
+Edited 1 Projects: 
+	AssignmentThree
+Edited 1 Files: 
+	/Users/sethwiggins/eclipse-workspace/AssignmentThree/src/mp/bridgeSceneFigures/ABridgeScene.java
+Number of insert: 13
+Number of delete: 107
+" starttimestamp="1623364423520" timestamp="3600268">
+    <fineGrainedWorkTime><![CDATA[24]]></fineGrainedWorkTime>
+    <insert><![CDATA[13]]></insert>
+    <startTime><![CDATA[1623364424697]]></startTime>
+    <endTime><![CDATA[1623368021931]]></endTime>
+    <workTime><![CDATA[19]]></workTime>
+    <delete><![CDATA[107]]></delete>
+  </Command>
+  <Command __id="337" _type="PauseCommand" date="Thu Jun 10 19:34:00 EDT 2021" range="10s-20s" starttimestamp="1623364423520" timestamp="3616951">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[BalloonCommand]]></prev>
+    <pause><![CDATA[16683]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="336" _type="ShellCommand" date="Thu Jun 10 19:34:00 EDT 2021" starttimestamp="1623364423520" timestamp="3616951" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="338" _type="EclipseCommand" commandID="" date="Thu Jun 10 19:34:01 EDT 2021" starttimestamp="1623364423520" timestamp="3617493" />
+  <Command __id="339" _type="EclipseCommand" commandID="" date="Thu Jun 10 19:34:01 EDT 2021" starttimestamp="1623364423520" timestamp="3617741" />
+  <Command __id="346" _type="PauseCommand" date="Thu Jun 10 19:34:35 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="3652086">
+    <prevType><![CDATA[Other]]></prevType>
+    <prev><![CDATA[EclipseCommand]]></prev>
+    <pause><![CDATA[1006]]></pause>
+    <nextType><![CDATA[Other]]></nextType>
+    <next><![CDATA[EclipseCommand]]></next>
+  </Command>
+  <Command __id="345" _type="EclipseCommand" commandID="" date="Thu Jun 10 19:34:35 EDT 2021" starttimestamp="1623364423520" timestamp="3652086" />
+  <Command __id="347" _type="ShellCommand" date="Thu Jun 10 19:34:35 EDT 2021" starttimestamp="1623364423520" timestamp="3652131" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="348" _type="EclipseCommand" commandID="" date="Thu Jun 10 19:34:35 EDT 2021" starttimestamp="1623364423520" timestamp="3652359" />
+  <Command __id="361" _type="PauseCommand" date="Thu Jun 10 19:34:51 EDT 2021" range="1s-2s" starttimestamp="1623364423520" timestamp="3667691">
+    <prevType><![CDATA[Lost Focus]]></prevType>
+    <prev><![CDATA[ShellCommand]]></prev>
+    <pause><![CDATA[1330]]></pause>
+    <nextType><![CDATA[Gained Focus]]></nextType>
+    <next><![CDATA[ShellCommand]]></next>
+  </Command>
+  <Command __id="360" _type="ShellCommand" date="Thu Jun 10 19:34:51 EDT 2021" starttimestamp="1623364423520" timestamp="3667691" type="ECLIPSE_GAINED_FOCUS" />
+  <Command __id="362" _type="EclipseCommand" commandID="" date="Thu Jun 10 19:34:51 EDT 2021" starttimestamp="1623364423520" timestamp="3667903" />
+  <Command __id="363" _type="EclipseCommand" commandID="" date="Thu Jun 10 19:34:51 EDT 2021" starttimestamp="1623364423520" timestamp="3667904" />
+</Events>
